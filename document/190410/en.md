@@ -36,7 +36,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
      }'                     
 ```
 - `utext` : Sentence that a user entered in your chatbot(100 characters max.)
-- `lang` : Language code ( [language-language code table](#####################) )
+- `lang` : Language code ( [language-language code table](#list-of-supported-languages-and-language-codes) )
 
 #### Example Response
 ``` json
@@ -53,10 +53,10 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 ```
 - `atext` : answer sentence 
 - `request` : request body
-- `status`, `statusMessage` : status information ([Status Code List](####################))
+- `status`, `statusMessage` : status information ([Status Code List](#status-code-and-status-messages))
 
 ## Response Control
-SmallTalk API provides options for controlling response. For example, if you want your bot to answer sentences(`atext`) with a [Badword Probability](#Badword_Probability) of 70% or less among the talksets generated in the United States, you can request by adding the following two options.
+SmallTalk API provides options for controlling response. For example, if you want your bot to answer sentences(`atext`) with a [Badword Probability](#badword-probability) of 70% or less among the talksets generated in the United States, you can request by adding the following two options.
 
 #### Example Request
 ``` bash
@@ -72,7 +72,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
  ```
 #### Response Control Options
 
-- `country` : 대화세트 생성국가 필터. 영어, 스페인어와 같이 여러 국가에서 사용되는 언어에서 특정 국가(들)에서 생성한 대화세트들로 응답후보를 한정할 수 있습니다. ([ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) 국가코드를 10개까지 열거할 수 있음, 미지정시 모든 국가를 대상으로 함.)  
+- `country` : Specifies the countries of the talkset. You can specify this value when you are requesting SmallTalk API with a language that is used in multiple countries to filter the talksets created in the desired countries. The format is an array of [country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (up to 10, if not specified, all countries are set.).
 　
 - `atext_bad_prob_max`, `qtext_bad_prob_max`, `talkset_bad_prob_max` : 문장의 나쁜말확률 최댓값. 챗봇의 대답에서 나쁜말을 억제하는 용도로 사용합니다. 많은 경우 응답문장 나쁜말확률 최댓값(`atext_bad_prob_max`)을 적절히 조절하면 충분하며, 질문문장과 대화세트의 나쁜말확률(`qtext_bad_prob_max`, `talkset_bad_prob_max`)을 추가로 지정해서 더 보수적으로 제어할 수 있습니다. 대화세트의 나쁜말확률은 질문문장과 답변문장을 합쳐서 하나의 문장으로 보고 판별합니다. 소숫점 1자리의 확률값 (0.0 ~ 1.0, 미지정시 기본값 1.0)  
 　
