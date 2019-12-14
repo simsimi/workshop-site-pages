@@ -48,13 +48,13 @@ SWS의 일상대화 API는 15년 이상 일상대화 챗봇 '심심이' 운영�
 
 ### 일상대화 API에서 제공받는 문장들의 나쁜말 수준을 내가 어떻게 제어하나요?
 API 요청시 atext_bad_prob_max 파라미터를 설정하세요. 일상대화 API는 이 값이 0.0 이면 나쁜말일 확률이 0%인 문장들을, 0.7이면 70% 이하인 문장들을 제공합니다.
-세부사항 및 예제
+[세부사항 및 예제](https://workshop.simsimi.com/document#st_filter)
 
 ---
 
 ### 문장의 나쁜말 여부를 결정하는 원칙은 뭔가요?
 심심이 서비스의 콘텐츠 정책을 기준으로 합니다. 어떤 문장이 이 정책을 위반했을 가능성을 나쁜말 확률로 결정합니다.
-심심이 서비스 콘텐츠 정책
+[심심이 서비스 콘텐츠 정책](https://workshop.simsimi.com/termofuse#prohibitions)
 
 ---
 
@@ -70,13 +70,13 @@ API 요청시 atext_bad_prob_max 파라미터를 설정하세요. 일상대화 A
 - 불법 활동을 조장하는 콘텐츠
 
 아래 링크에서 심심이 서비스 이용 약관을 확인할 수 있습니다.
-심심이 서비스 이용약관
+[심심이 서비스 이용약관](https://workshop.simsimi.com/termofuse)
 
 ---
 
 ### 나쁜말 확률은 어떻게 결정되나요?
 일상대화 API에서 제공하는 문장들의 나쁜말 확률은 '심심이' 서비스에서 활용하고 있는 다음의 분류 방식들을 조합하여 결정합니다. 아래 링크에서 각 분류 방식에 대한 설명을 볼 수 있습니다.
-심심이 대화 품질 - 나쁜말 필터 관련 기술
+[심심이 대화 품질 - 나쁜말 필터 관련 기술](http://blog.simsimi.com/2019/03/blog-post.html)
 
 1) 확률적 근사 (STAPX)
 2) 심층신경망 판별 (DPD)
@@ -107,7 +107,7 @@ API 요청시 atext_bad_prob_max 파라미터를 설정하세요. 일상대화 A
 
 ### API 요금은 어떻게 구성되나요?
 다음 페이지에서 자세한 정보를 얻을 수 있습니다.
-가격 및 결제
+[가격 및 결제](https://workshop.simsimi.com/pricing#pricing_policy)
 
 ---
 
@@ -138,7 +138,7 @@ API 요청시 atext_bad_prob_max 파라미터를 설정하세요. 일상대화 A
 
 ### SimSimi Workshop에서 지원하는 언어는 무엇인가요?
 다음 페이지에서 자세한 정보를 얻을 수 있습니다.
-지원언어 및 언어코드
+[지원언어 및 언어코드](https://workshop.simsimi.com/document#st_lang_code)
 
 ---
 
