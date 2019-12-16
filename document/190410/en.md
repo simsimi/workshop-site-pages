@@ -73,14 +73,14 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 #### Response Control Options
 
 - `country` : Specifies the countries of the talkset. You can specify this value when you are requesting SmallTalk API with a language that is used in multiple countries to filter the talksets created in the desired countries. The format is an array of [country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) (up to 10, if not specified, all countries are set.).
+
+- `atext_bad_prob_max`, `qtext_bad_prob_max`, `talkset_bad_prob_max` : Limits the maximum of Badword Probability in the sentence (`atext`, `qtext`, `talkset`). In many cases, it is sufficient to adjust the value of the answer(`atext`), and you can also specify the value of the question(`qtext`) or `talkset` for more conservative operation. Badword Probability of a talkset combines question and answer(`qtext` + `atext`) into a single sentence. Specifies one of the values from 0.0 to 1.0 with the first decimal place. Defaults to 1.0.
 　
-- `atext_bad_prob_max`, `qtext_bad_prob_max`, `talkset_bad_prob_max` : 문장의 나쁜말확률 최댓값. 챗봇의 대답에서 나쁜말을 억제하는 용도로 사용합니다. 많은 경우 응답문장 나쁜말확률 최댓값(`atext_bad_prob_max`)을 적절히 조절하면 충분하며, 질문문장과 대화세트의 나쁜말확률(`qtext_bad_prob_max`, `talkset_bad_prob_max`)을 추가로 지정해서 더 보수적으로 제어할 수 있습니다. 대화세트의 나쁜말확률은 질문문장과 답변문장을 합쳐서 하나의 문장으로 보고 판별합니다. 소숫점 1자리의 확률값 (0.0 ~ 1.0, 미지정시 기본값 1.0)  
+- `atext_bad_prob_min` : Sets the minimum of Badword Probability . Setting this value to a high number will exclude sentences with low Badword Probability. You can use it to make your chatbot speak bad words. Please note that many chatbot platforms have limitations related to the health of the content. Specifies one of the values from 0.0 to 1.0 with the first decimal place. Defaults to 0.0.
 　
-- `atext_bad_prob_min` : 응답문장의 나쁜말확률 최솟값. 챗봇이 나쁜말을 주로 하도록 할 때 사용할 수 있는 옵션입니다. 상당수 챗봇 플랫폼들은 컨텐츠의 건전성과 관련된 제한이 있으니 사용에 유의하시기 바랍니다. 소숫점 1자리의 확률값 (0.0 ~ 1.0, 미지정시 기본값 0.0)  
+- `atext_length_max`, `atext_length_min` : Specify the length range of the answer sentence(`atext`). You can control it depending on the chatbot's personality and the context of the conversation. (Integer from 1 to 256; default if not specified: `atext_length_max` is 256,` atext_length_min` is 1)
 　
-- `atext_length_max`, `atext_length_min` : 응답문장의 길이 범위 지정. 챗봇의 성격이나 대화 상황에 따라서 응답문장의 길이 범위를 정할 수 있습니다.(1 ~ 256의 정수, 미지정시 기본값 `atext_length_max`은 256, `atext_length_min`은 1 )  
-　
-- `regist_date_max`, `regist_date_min` : 대화세트(`talkset`) 등록일 범위 지정. 최신 트랜드에 민감한 챗봇, 과거에 머물러 있는 챗봇 등을 구현하기 위해 사용할 수 있습니다(`yyyy-MM-dd HH:mm:ss` 형식으로 사용, 미지정시 기본값 `regist_date_max`는 현재시간, `regist_date_min`은 최초의 대화세트 등록일)　　
+- `regist_date_max`, `regist_date_min` : Specify the range of the talkset registration date. You can use it to implement chatbots that are sensitive to the latest trends or chatbots that have stayed in the past.(Use in the foramt `yyyy-MM-dd HH:mm:ss`, default if not specified: `regist_date_max` is now, `regist_date_min` is date of the first talkset registration)　　
 　  
 
 
