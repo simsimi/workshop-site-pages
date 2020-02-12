@@ -104,11 +104,6 @@ You can only pay prepaid by wire transfer. Please send the following information
 
 ---
 
-### What is the pricing after I exceed the free credit?
-You only pay for what you use. You can access your spending and estimate your bill any time in your SimSimi Workshop console.
-
----
-
 ### How is pricing structured for the API.
 For each successful request, there is a per-request cost, which varies depending on whether it has filtering options. For more information, see the Pricing page.
 
@@ -127,7 +122,7 @@ In China, you can not sign up because of an issue known as "The Great Firewall o
 ---
 
 ### Can I try APIs before deciding to purchase?
-Yes. The first $300 of usage is free in the first 12 months.
+Yes. We provide new users with a demonstration project which is capable of 100 requests.
 
 ---
 
