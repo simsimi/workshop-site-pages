@@ -36,11 +36,11 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 <th>Quantity</th>
 <th>Unit price</th>
 <th>Discount</th>
-<th>Price(monthly)</th>
+<th>Price<br/>(monthly)</th>
 <th>Unit Price</th>
 <th>Discount</th>
-<th>Price(monthly)</th>
-<th>Price(annually)</th>
+<th>Price<br/>(monthly)</th>
+<th>Price<br/>(annually)</th>
 </tr>
 </thead>
 <tbody>
@@ -159,11 +159,11 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 <th>Quantity</th>
 <th>Unit price</th>
 <th>Discount</th>
-<th>Price(monthly)</th>
+<th>Price<br/>(monthly)</th>
 <th>Unit Price</th>
 <th>Discount</th>
-<th>Price(monthly)</th>
-<th>Price(annually)</th>
+<th>Price<br/>(monthly)</th>
+<th>Price<br/>(annually)</th>
 </tr>
 </thead>
 <tbody>
