@@ -6,6 +6,10 @@ p, li {color:#333333}
 code {color:#000080;}
 </style>
 
+# 데모 프로젝트
+
+Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공합니다. 이 프로젝트는 100회의 API 호출이 가능하며 기한이 정해져 있지 않습니다. 100회의 API 호출 이후에는 API 키를 사용할 수 없으니 데모 프로젝트를 프로덕션 용으로 사용하지 마십시요.
+
 # 가격정책
 
 사용자의 필요에 따라 Basic과 Standard 두 가지 플랜 중 하나를 선택하여 이용하실 수 있습니다. 두 플랜의 차이점은 다음과 같습니다.
@@ -17,7 +21,7 @@ code {color:#000080;}
 | | Set options for controlling response. (e.g. badword probability, country, etc.) 더 자세한 내용은 [링크](https://workshop.simsimi.com/document?lc=ko#st_filter_options)에서 확인. |
 | | Get more detailed information about responses. (e.g. bad probability, country, original question sentence, etc.) 더 자세한 내용은 [링크](https://workshop.simsimi.com/document?lc=ko#st_additional_info_details)에서 확인. |
 
-결제 주기는 매월 말일이며 구독한 플랜에 따라서 자동적으로 결제됩니다. [콘솔](https://workshop.simsimi.com/dashboard) 에서 현재 구독 중인 플랜을 확인할 수 있습니다. 상품 별 세부 가격 정책은 다음과 같습니다.
+결제 주기는 결제를 시작한 날을 기점으로 매달 이루어지며 구독한 플랜에 따라 자동적으로 결제됩니다. [콘솔](https://workshop.simsimi.com/dashboard) 에서 현재 구독 중인 플랜을 확인할 수 있습니다. 상품 별 세부 가격 정책은 다음과 같습니다.
 
 ## Basic
 
