@@ -44,8 +44,8 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 <thead>
 <tr>
 <th rowspan="2">플랜</th>
-<th colspan="4">M</th>
-<th colspan="4">Y</th>
+<th colspan="4">Monthly Plan</th>
+<th colspan="4">Annual Plan</th>
 </tr>
 <tr>
 <th>Quantity</th>
@@ -160,6 +160,8 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 </tr>
 </tbody>
 </table>
+
+
 
 ## Standard
 
