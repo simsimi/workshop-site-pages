@@ -17,7 +17,7 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 <table>
 <thead>
 <tr>
-<th>Basic</th>
+<th style="width: 50%;">Basic</th>
 <th>Standard</th>
 </tr>
 </thead>
