@@ -12,14 +12,29 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 
 # 가격정책
 
-사용자의 필요에 따라 Basic과 Standard 두 가지 플랜 중 하나를 선택하여 이용하실 수 있습니다. 두 플랜의 차이점은 다음과 같습니다.
+사용자는 **프로젝트 별로** Basic과 Standard 두 가지 플랜 중 하나를 선택하여 이용하실 수 있습니다. 두 플랜의 차이점은 다음과 같습니다.
 
-| Basic | Standard |
-| --- | --- |
-| 일상 대화에 가장 적합한 챗봇, 심심이의 모든 표현을 이용하실 수 있습니다. |  심심이의 모든 일상 대화 표현에 더불어 다양한 추가 기능을 제공함으로써 사용자의 챗봇이 정교화된 채팅 기술을 구사하게 합니다. |
-| 악의적인 답변을 배제하고 싶은 사용자들을 위해 응답제어 옵션을 통해 나쁜말이 나올 확률을 0으로 설정 가능합니다. ('문서' '응답제어 옵션' 항목의 atext_bad_prob_max 참조) | 15년이 넘는 기간 동안 세계 각국 수천만 명이 생성한 1억 건 이상의 챗봇 전용 대화세트와 대화엔진(AICR)을 이용해 사용자의 챗봇이 유창한 채팅 스킬을 지니게 할 수 있습니다. |
-| | 응답제어 옵션을 설정해 응답을 조정할 수 있습니다. (e.g. badword probability, country, etc.) |
-| | 응답에 대해서 추가 정보를 얻을 수 있습니다. (e.g. bad probability, country, original question sentence, etc.) |
+<table>
+<thead>
+<tr>
+<th>Basic</th>
+<th>Standard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">15년이 넘는 기간 동안 세계 각국 수천만 명이 생성한 1억 건 이상의 챗봇 전용 대화세트와 대화엔진(AICR)을 이용해 사용자의 챗봇이 유창한 채팅 스킬을 지니게 할 수 있습니다.</td>
+</tr>
+<tr>
+<td>악의적인 답변을 배제하고 싶은 사용자들은 응답제어 옵션을 통해 나쁜말이 나올 확률을 0으로 설정 가능합니다. ('문서' '응답제어 옵션' 항목의 atext_bad_prob_max 참조)</td>
+<td>모든 종류의 응답제어 옵션을 활용해 사용자가 응답 내용을 조절할 수 있습니다. (e.g. badword probability, country, etc. <a href="https://workshop.simsimi.com/document?lc=ko#st_filter_options">참고</a>)</td>
+</tr>
+<tr>
+<td></td>
+<td>응답에 대한 모든 종류의 추가 정보를 활용해 사용자는 사용자의 챗봇에 정교화된 전략을 사용할 수 있습니다. (e.g. bad probability, country, original question sentence, etc. <a href="https://workshop.simsimi.com/document?lc=ko#st_additional_info_details">참고</a>)</td>
+</tr>
+</tbody>
+</table>
 
 결제 주기는 결제를 시작한 날을 기점으로 매달 이루어지며 구독한 플랜에 따라 자동적으로 결제됩니다. [콘솔](https://workshop.simsimi.com/dashboard) 에서 현재 구독 중인 플랜을 확인할 수 있습니다. 상품 별 세부 가격 정책은 다음과 같습니다.
 
