@@ -289,7 +289,7 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 
 # 결제 수단
 
-Paypal, Visa, Master 카드를 프로젝트에 등록하여 결제를 진행하실 수 있습니다. 계좌 이체를 통해 결제를 진행하고 싶으시다면 [링크](https://workshop.simsimi.com/support?lc=ko#st_payment_q1)를 참조하여 주십시요.
+Visa, Master 카드를 프로젝트에 등록하여 결제를 진행하실 수 있습니다. 계좌 이체를 통해 결제를 진행하고 싶으시다면 [링크](https://workshop.simsimi.com/support?lc=ko#st_payment_q1)를 참조하여 주십시요.
 
 신용카드 정보 입력 직후 $0~1의 거래가 이루어진 것으로 나타날 수도 있습니다. 다음은 이 거래에 대한 정보입니다.
 
