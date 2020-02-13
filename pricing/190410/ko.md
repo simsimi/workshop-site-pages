@@ -16,10 +16,10 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 
 | Basic | Standard |
 | --- | --- |
-| 심심이의 모든 표현을 이용하실 수 있습니다. 짧은 대화를 위한 최고의 선택 | With over 100 million chatbot-dedicated expressions created by tens of millions of people around the world for over 15 years. you'll have brilliant chatting skills in your chatbot. |
-| Only talksets with filtered malicious answer sentences as the most reliable determination. | More than 100 million chatbot-dedicated expressions and a conversation engine(AICR) |
-| | Set options for controlling response. (e.g. badword probability, country, etc.) 더 자세한 내용은 [링크](https://workshop.simsimi.com/document?lc=ko#st_filter_options)에서 확인. |
-| | Get more detailed information about responses. (e.g. bad probability, country, original question sentence, etc.) 더 자세한 내용은 [링크](https://workshop.simsimi.com/document?lc=ko#st_additional_info_details)에서 확인. |
+| 심심이의 모든 표현을 이용하실 수 있습니다. 짧은 대화를 위한 최고의 선택 | 15년 동안 세계 각국 수천만 명이 생성한 1억 건 이상의 챗봇 전용 대화세트로 당신의 챗봇이 유창한 채팅 스킬을 지니게 됩니다. |
+| 악의적인 답변을 배제하고 싶은 사용자들을 위해 응답제어 옵션 atext_bad_prob_max=0 만이 사용 가능합니다. | 1억 건 이상의 챗봇 전용 대화세트와 대화엔진(AICR) |
+| | 옵션을 설정해 응답을 조정합니다. (e.g. badword probability, country, etc.) 자세한 내용은 [링크](https://workshop.simsimi.com/document?lc=ko#st_filter_options)에서 확인. |
+| | 응답에 대해서 추가 정보를 얻을 수 있습니다. (e.g. bad probability, country, original question sentence, etc.) 자세한 내용은 [링크](https://workshop.simsimi.com/document?lc=ko#st_additional_info_details)에서 확인. |
 
 결제 주기는 결제를 시작한 날을 기점으로 매달 이루어지며 구독한 플랜에 따라 자동적으로 결제됩니다. [콘솔](https://workshop.simsimi.com/dashboard) 에서 현재 구독 중인 플랜을 확인할 수 있습니다. 상품 별 세부 가격 정책은 다음과 같습니다.
 
