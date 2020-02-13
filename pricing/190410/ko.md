@@ -26,8 +26,8 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 <td colspan="2">15년이 넘는 기간 동안 세계 각국 수천만 명이 생성한 1억 건 이상의 챗봇 전용 대화세트와 대화엔진(AICR)을 이용해 사용자의 챗봇이 유창한 채팅 스킬을 지니게 할 수 있습니다.</td>
 </tr>
 <tr>
-<td>악의적인 답변을 배제하고 싶은 사용자들은 응답제어 옵션을 통해 나쁜말이 나올 확률을 0으로 설정 가능합니다. ('문서' '응답제어 옵션' 항목의 atext_bad_prob_max 참조)</td>
-<td>모든 종류의 응답제어 옵션을 활용해 사용자가 응답 내용을 조절할 수 있습니다. (e.g. badword probability, country, etc. <a href="https://workshop.simsimi.com/document?lc=ko#st_filter_options">참고</a>)</td>
+<td>악의적인 답변을 배제하고 싶은 사용자들은 응답제어 옵션을 통해 나쁜말이 나올 확률을 0으로 설정 가능합니다. ('문서' 페이지 '응답제어 옵션' 항목의 atext_bad_prob_max 참고)</td>
+<td>모든 종류의 응답제어 옵션을 활용해 사용자가 응답 내용을 조정할 수 있습니다. (e.g. badword probability, country, etc. <a href="https://workshop.simsimi.com/document?lc=ko#st_filter_options">참고</a>)</td>
 </tr>
 <tr>
 <td></td>
