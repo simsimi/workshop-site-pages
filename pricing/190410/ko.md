@@ -24,7 +24,7 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 결제 주기는 결제를 시작한 날을 기점으로 매달 이루어지며 구독한 플랜에 따라 자동적으로 결제됩니다. [콘솔](https://workshop.simsimi.com/dashboard) 에서 현재 구독 중인 플랜을 확인할 수 있습니다. 상품 별 세부 가격 정책은 다음과 같습니다.
 
 ## Basic
-
+<h1> hello friends </h1>
 | | M | M | M | M | Y | Y | Y | Y |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 플랜 | Quantity | Unit price | Discount | Price(monthly) | Unit Price | Discount | Price(monthly) | Price(annually) |
