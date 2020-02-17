@@ -42,7 +42,7 @@ Simmi Workshop is a prepaid, subscription-type merchandise. For each project, yo
 
 </table>
 
-The payment cycle takes place monthly from the start of the payment and is automatically paid according to the subscription. You can check your plan at the [console](https://workshop.simsimi.com/dashboard). The detailed pricing policy by product is as follows:
+The payment cycle takes place monthly from the start of the payment and is automatically paid according to the subscription. You can check your plan at the [console](https://workshop.simsimi.com/dashboard?lc=en). The detailed pricing policy by product is as follows:
 
 ## Basic
 
