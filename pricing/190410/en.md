@@ -15,31 +15,26 @@ Simsimi Workshop provides a demo project to new members. This project is capable
 Simsimi Workshop is a prepaid, subscription-type merchandise. For each project, you can choose either Basic or Standard. The differences between the two plans are as follows:
 
 <table>
-  
 <thead>
 <tr>
 <th style="width: 50%;">Basic</th>
 <th>Standard</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>You can take advantage of most of the expressions in SimSimi, the best chatbot for small talks. However, answer sentences identified as malicious statements by the most reliable identification method are not provided. ("atext_bad_prob_max" : 0.0)</td>
 <td>Using conversation engine(AICR) and 130 million chatbot-specific dialogue scenarios written by 22 million scenario writers in 81 languages, chatbots can be fluent in small talks.</td>
 </tr>
-  
 <tr>
 <td></td>
 <td>Dialog scenario conditions can be set so that chatbot responds according to it's personality. (e.g. badword probability, country, etc. <a href="http://simsimi-workshop-next-env.idi64q4c6x.us-east-1.elasticbeanstalk.com/document#Response%20Control">Reference</a>)</td>
 </tr>
-
 <tr>
 <td></td>
 <td>Use additional information about chatbot’s response scenarios to understand specific dialog situation and establish a more sophisticated conversation strategy. (e.g. badword probability, country, original question sentence, etc. <a href="http://simsimi-workshop-next-env.idi64q4c6x.us-east-1.elasticbeanstalk.com/document#Request%20Additional%20Information">Reference</a>)</td>
 </tr>
 </tbody>
-
 </table>
 
 The payment cycle takes place monthly from the start of the payment and is automatically paid according to the subscription. You can check your plan at the [console](http://simsimi-workshop-next-env.idi64q4c6x.us-east-1.elasticbeanstalk.com/dashboard). The detailed pricing policy by product is as follows:
