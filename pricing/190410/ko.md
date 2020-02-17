@@ -31,18 +31,18 @@ Simsimi Workshop은 선불 구독형 상품입니다. **프로젝트 별로** Ba
   
 <tr>
 <td></td>
-<td>챗봇의 성격에 맞게 응답하도록 사용할 대화 시나리오 조건을 설정할 수 있습니다. (e.g. badword probability, country, etc. <a href="https://workshop.simsimi.com/document?lc=ko#st_filter_options">참고</a>)</td>
+<td>챗봇의 성격에 맞게 응답하도록 사용할 대화 시나리오 조건을 설정할 수 있습니다. (e.g. badword probability, country, etc. <a href="http://simsimi-workshop-next-env.idi64q4c6x.us-east-1.elasticbeanstalk.com/document#%EC%9D%91%EB%8B%B5%EC%A0%9C%EC%96%B4">참고</a>)</td>
 </tr>
 
 <tr>
 <td></td>
-<td>챗봇이 응답한 대화 시나리오의 추가 정보를 활용해 사용자의 구체적인 대화 상황을 파악하고 보다 정교한 대화 전략을 세울 수 있습니다. (e.g. badword probability, country, original question sentence, etc. <a href="https://workshop.simsimi.com/document?lc=ko#st_additional_info_details">참고</a>)</td>
+<td>챗봇이 응답한 대화 시나리오의 추가 정보를 활용해 사용자의 구체적인 대화 상황을 파악하고 보다 정교한 대화 전략을 세울 수 있습니다. (e.g. badword probability, country, original question sentence, etc. <a href="http://simsimi-workshop-next-env.idi64q4c6x.us-east-1.elasticbeanstalk.com/document#%EC%B6%94%EA%B0%80%EC%A0%95%EB%B3%B4">참고</a>)</td>
 </tr>
 </tbody>
 
 </table>
 
-결제 주기는 결제를 시작한 날을 기점으로 매달 이루어지며 구독한 플랜에 따라 자동적으로 결제됩니다. [콘솔](https://workshop.simsimi.com/dashboard) 에서 현재 구독 중인 플랜을 확인할 수 있습니다. 상품 별 세부 가격 정책은 다음과 같습니다.
+결제 주기는 결제를 시작한 날을 기점으로 매달 이루어지며 구독한 플랜에 따라 자동적으로 결제됩니다. [콘솔](http://simsimi-workshop-next-env.idi64q4c6x.us-east-1.elasticbeanstalk.com/dashboard) 에서 현재 구독 중인 플랜을 확인할 수 있습니다. 상품 별 세부 가격 정책은 다음과 같습니다.
 
 ## Basic
 
@@ -295,7 +295,7 @@ Simsimi Workshop은 선불 구독형 상품입니다. **프로젝트 별로** Ba
 
 # 결제 수단
 
-Visa, Master 카드를 프로젝트에 등록하여 결제를 진행하실 수 있습니다. 계좌 이체를 통해 결제를 진행하고 싶으시다면 [링크](https://workshop.simsimi.com/support?lc=ko#st_payment_q1)를 참조하여 주십시오.
+Visa, Master 카드를 프로젝트에 등록하여 결제를 진행하실 수 있습니다. 계좌 이체를 통해 결제를 진행하고 싶으시다면 [링크](http://simsimi-workshop-next-env.idi64q4c6x.us-east-1.elasticbeanstalk.com/support#%EC%84%A0%EB%B6%88%EB%A1%9C%20%EA%B2%B0%EC%A0%9C%ED%95%98%EA%B3%A0%20%EC%8B%B6%EC%8A%B5%EB%8B%88%EB%8B%A4.)를 참조하여 주십시오.
 
 신용카드 정보 입력 직후 $0~1의 거래가 이루어진 것으로 나타날 수도 있습니다. 다음은 이 거래에 대한 정보입니다.
 
