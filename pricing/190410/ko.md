@@ -12,29 +12,34 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 
 # 가격정책
 
-Simsimi Workshop은 선불 구독형 상품을 구입한 사용자에게 API 키를 제공합니다. **프로젝트 별로** Basic과 Standard 두 가지 플랜 중 하나를 선택하여 이용하실 수 있습니다. 두 플랜의 차이점은 다음과 같습니다.
+Simsimi Workshop은 선불 구독형 상품입니다. **프로젝트 별로** Basic과 Standard 두 가지 플랜 중 하나를 선택하여 이용하실 수 있습니다. 두 플랜의 차이점은 다음과 같습니다.
 
 <table>
+  
 <thead>
 <tr>
 <th style="width: 50%;">Basic</th>
 <th>Standard</th>
 </tr>
 </thead>
+
 <tbody>
 <tr>
-<td>일상 대화에 가장 적합한 챗봇, 심심이의 표현을 대부분 사용할 수 있습니다.</td>
-<td>15년이 넘는 기간 동안 세계 각국 수천만 명이 생성한 1억 건 이상의 챗봇 전용 대화세트와 대화엔진(AICR)을 이용해 사용자의 챗봇이 유창한 채팅 스킬을 지니게 할 수 있습니다.</td>
+<td>일상 대화에 가장 적합한 챗봇, 심심이의 표현을 대부분 사용할 수 있습니다. 다만, 가장 신뢰할만한 판별법으로 악성 문장으로 판별된 답변 문장은 제공되지 않습니다.  ("atext_bad_prob_max" : 0.0)</td>
+<td>81개 언어에서 2천 2백만 명의 시나리오 작가들이 작성해 온 1억 3천만 건의 챗봇 전용 대화 시나리오와 대화엔진(AICR)을 이용해 챗봇이 일상 대화를 유창하게 할 수 있도록 지원합니다.</td>
 </tr>
-<tr>
-<td>믿을 수 있는 필터에 의해 나쁜말이 제외된 대화셋만이 제공됩니다.</td>
-<td>모든 종류의 응답제어 옵션을 활용해 사용자가 응답 내용을 조정할 수 있습니다. (e.g. badword probability, country, etc. <a href="https://workshop.simsimi.com/document?lc=ko#st_filter_options">참고</a>)</td>
-</tr>
+  
 <tr>
 <td></td>
-<td>응답에 대한 모든 종류의 추가 정보를 활용해 사용자는 사용자의 챗봇에 정교화된 전략을 사용할 수 있습니다. (e.g. bad probability, country, original question sentence, etc. <a href="https://workshop.simsimi.com/document?lc=ko#st_additional_info_details">참고</a>)</td>
+<td>챗봇의 성격에 맞게 응답하도록 사용할 대화 시나리오 조건을 설정할 수 있습니다. (e.g. badword probability, country, etc. <a href="https://workshop.simsimi.com/document?lc=ko#st_filter_options">참고</a>)</td>
+</tr>
+
+<tr>
+<td></td>
+<td>챗봇이 응답한 대화 시나리오의 추가 정보를 활용해 사용자의 구체적인 대화 상황을 파악하고 보다 정교한 대화 전략을 세울 수 있습니다. (e.g. badword probability, country, original question sentence, etc. <a href="https://workshop.simsimi.com/document?lc=ko#st_additional_info_details">참고</a>)</td>
 </tr>
 </tbody>
+
 </table>
 
 결제 주기는 결제를 시작한 날을 기점으로 매달 이루어지며 구독한 플랜에 따라 자동적으로 결제됩니다. [콘솔](https://workshop.simsimi.com/dashboard) 에서 현재 구독 중인 플랜을 확인할 수 있습니다. 상품 별 세부 가격 정책은 다음과 같습니다.
