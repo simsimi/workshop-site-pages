@@ -8,11 +8,11 @@ code {color:#000080;}
 
 # Demo Project
 
-Simmi Workshop provides a demo project to new members. This project is capable of 100 API calls and has no deadlines. Do not use the demo project for production, as API key is not available after 100 API calls.
+Simsimi Workshop provides a demo project to new members. This project is capable of 100 API calls and has no deadlines. Do not use the demo project for production, as API key is not available after 100 API calls.
 
 # Pricing Policy
 
-Simmi Workshop is a prepaid, subscription-type merchandise. For each project, you can choose either Basic or Standard. The differences between the two plans are as follows:
+Simsimi Workshop is a prepaid, subscription-type merchandise. For each project, you can choose either Basic or Standard. The differences between the two plans are as follows:
 
 <table>
   
@@ -31,18 +31,18 @@ Simmi Workshop is a prepaid, subscription-type merchandise. For each project, yo
   
 <tr>
 <td></td>
-<td>Dialog scenario conditions can be set so that chatbot responds according to it's personality. (e.g. badword probability, country, etc. <a href="https://workshop.simsimi.com/document?lc=en#st_filter_options">Reference</a>)</td>
+<td>Dialog scenario conditions can be set so that chatbot responds according to it's personality. (e.g. badword probability, country, etc. <a href="http://simsimi-workshop-next-env.idi64q4c6x.us-east-1.elasticbeanstalk.com/document#Response%20Control">Reference</a>)</td>
 </tr>
 
 <tr>
 <td></td>
-<td>Use additional information about chatbot’s response scenarios to understand specific dialog situation and establish a more sophisticated conversation strategy. (e.g. badword probability, country, original question sentence, etc. <a href="https://workshop.simsimi.com/document?lc=en#st_additional_info_details">Reference</a>)</td>
+<td>Use additional information about chatbot’s response scenarios to understand specific dialog situation and establish a more sophisticated conversation strategy. (e.g. badword probability, country, original question sentence, etc. <a href="http://simsimi-workshop-next-env.idi64q4c6x.us-east-1.elasticbeanstalk.com/document#Request%20Additional%20Information">Reference</a>)</td>
 </tr>
 </tbody>
 
 </table>
 
-The payment cycle takes place monthly from the start of the payment and is automatically paid according to the subscription. You can check your plan at the [console](https://workshop.simsimi.com/dashboard?lc=en). The detailed pricing policy by product is as follows:
+The payment cycle takes place monthly from the start of the payment and is automatically paid according to the subscription. You can check your plan at the [console](http://simsimi-workshop-next-env.idi64q4c6x.us-east-1.elasticbeanstalk.com/dashboard). The detailed pricing policy by product is as follows:
 
 ## Basic
 
@@ -295,7 +295,7 @@ The payment cycle takes place monthly from the start of the payment and is autom
 
 # Payment Method
 
-You can register Visa or Master card in your project to proceed with payment. Please refer to the [link](https://workshop.simsimi.com/support?lc=en#st_payment_q1) to proceed with payment through account transfer.
+You can register Visa or Master card in your project to proceed with payment. Please refer to the [link](http://simsimi-workshop-next-env.idi64q4c6x.us-east-1.elasticbeanstalk.com/support#I%20want%20to%20pay%20in%20advance.) to proceed with payment through account transfer.
 
 You might notice a $0-1 transaction from SimSimi Workshop(or payment agency) after you sign up. This transaction:
 
