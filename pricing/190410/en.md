@@ -6,8 +6,296 @@ p, li {color:#333333}
 code {color:#000080;}
 </style>
 
-# Free Credits
-SimSimi Workshop provides new individual users with $300 free credit to use with any APIs. We ask you for your credit card to make sure you are not a robot. For service to continue uninterrupted, you must always have a valid payment method associated with your account. The usage cost will be paid from your free credits unless it run out or expire (whichever comes first). For service to continue uninterrupted, you must always have a valid payment method associated with your account.
+# Demo Project
+
+Simmi Workshop provides a demo project to new members. This project is capable of 100 API calls and has no deadlines. Do not use the demo project for production, as API key is not available after 100 API calls.
+
+# Pricing Policy
+
+Simmi Workshop is a prepaid, subscription-type merchandise. For each project, you can choose either Basic or Standard. The differences between the two plans are as follows:
+
+<table>
+  
+<thead>
+<tr>
+<th style="width: 50%;">Basic</th>
+<th>Standard</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>You can take advantage of most of the expressions in SimSimi, the best chatbot for small talks. However, answer sentences identified as malicious statements by the most reliable identification method are not provided. ("atext_bad_prob_max" : 0.0)</td>
+<td>Using conversation engine(AICR) and 130 million chatbot-specific dialogue scenarios written by 22 million scenario writers in 81 languages, chatbots can be fluent in small talks.</td>
+</tr>
+  
+<tr>
+<td></td>
+<td>Dialog scenario conditions can be set so that chatbot responds according to it's personality. (e.g. badword probability, country, etc. <a href="https://workshop.simsimi.com/document?lc=en#st_filter_options">Reference</a>)</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Use additional information about chatbot’s response scenarios to understand specific dialog situation and establish a more sophisticated conversation strategy. (e.g. badword probability, country, original question sentence, etc. <a href="https://workshop.simsimi.com/document?lc=en#st_additional_info_details">Reference</a>)</td>
+</tr>
+</tbody>
+
+</table>
+
+The payment cycle takes place monthly from the start of the payment and is automatically paid according to the subscription. You can check your plan at the [console](https://workshop.simsimi.com/dashboard). The detailed pricing policy by product is as follows:
+
+## Basic
+
+<table style="margin-bottom: 30px;">
+<thead>
+<tr>
+<th rowspan="2">Plan</th>
+<th colspan="4">Monthly Plan</th>
+<th colspan="4">Annual Plan</th>
+</tr>
+<tr>
+<th>Quantity</th>
+<th>Unit price</th>
+<th>Discount</th>
+<th>Price<br/>(monthly)</th>
+<th>Unit Price</th>
+<th>Discount</th>
+<th>Price<br/>(monthly)</th>
+<th>Price<br/>(annually)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1K</td>
+<td>1000</td>
+<td>$0.0230</td>
+<td>-</td>
+<td>$23.0</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5K</td>
+<td>5000</td>
+<td>$0.0161</td>
+<td>30%</td>
+<td>$80.5</td>
+<td>0.0076</td>
+<td>67%</td>
+<td>$38</td>
+<td>$455.4</td>
+</tr>
+<tr>
+<td>10K</td>
+<td>10,000</td>
+<td>$0.0154</td>
+<td>33%</td>
+<td>$154.1</td>
+<td>$0.0069</td>
+<td>70%</td>
+<td>$69</td>
+<td>$828.0</td>
+</tr>
+<tr>
+<td>50K</td>
+<td>50,000</td>
+<td>$0.0147</td>
+<td>36%</td>
+<td>$736.0</td>
+<td>$0.0062</td>
+<td>73%</td>
+<td>$311</td>
+<td>$3,726.0</td>
+</tr>
+<tr>
+<td>100K</td>
+<td>100,000</td>
+<td>$0.0140</td>
+<td>39%</td>
+<td>$1,403.0</td>
+<td>$0.0055</td>
+<td>76%</td>
+<td>$552</td>
+<td>$6,624.0</td>
+</tr>
+<tr>
+<td>500K</td>
+<td>500,000</td>
+<td>$0.0133</td>
+<td>42%</td>
+<td>$6,670.0</td>
+<td>$0.0048</td>
+<td>79%</td>
+<td>$2,415</td>
+<td>$28,980.0</td>
+</tr>
+<tr>
+<td>1M</td>
+<td>1,000,000</td>
+<td>$0.0127</td>
+<td>45%</td>
+<td>$12,650.0</td>
+<td>$0.0041</td>
+<td>82%</td>
+<td>$4,140</td>
+<td>$49,680.0</td>
+</tr>
+<tr>
+<td>5M</td>
+<td>5,000,000</td>
+<td>$0.0120</td>
+<td>48%</td>
+<td>$59,800.0</td>
+<td>$0.0035</td>
+<td>85%</td>
+<td>$17,250</td>
+<td>$207,000.0</td>
+</tr>
+<tr>
+<td>10M</td>
+<td>10,000,000</td>
+<td>$0.0113</td>
+<td>51%</td>
+<td>$112,700.0</td>
+<td>$0.0028</td>
+<td>88%</td>
+<td>$27,600</td>
+<td>$331,200.0</td>
+</tr>
+</tbody>
+</table>
+
+
+
+## Standard
+
+<table>
+<thead>
+<tr>
+<th rowspan="2">Plan</th>
+<th colspan="4">Monthly Plan</th>
+<th colspan="4">Annual Plan</th>
+</tr>
+<tr>
+<th>Quantity</th>
+<th>Unit price</th>
+<th>Discount</th>
+<th>Price<br/>(monthly)</th>
+<th>Unit Price</th>
+<th>Discount</th>
+<th>Price<br/>(monthly)</th>
+<th>Price<br/>(annually)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1K</td>
+<td>1000</td>
+<td>$0.0265</td>
+<td>-</td>
+<td>$26.5</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>5K</td>
+<td>5000</td>
+<td>$0.0213</td>
+<td>30%</td>
+<td>$106.5</td>
+<td>$0.0076</td>
+<td>67%</td>
+<td>$50</td>
+<td>$602.3</td>
+</tr>
+<tr>
+<td>10K</td>
+<td>10,000</td>
+<td>$0.0204</td>
+<td>33%</td>
+<td>$203.8</td>
+<td>$0.0069</td>
+<td>70%</td>
+<td>$91</td>
+<td>$1,095.0</td>
+</tr>
+<tr>
+<td>50K</td>
+<td>50,000</td>
+<td>$0.0195</td>
+<td>36%</td>
+<td>$973.4</td>
+<td>$0.0062</td>
+<td>73%</td>
+<td>$411</td>
+<td>$4,927.6</td>
+</tr>
+<tr>
+<td>100K</td>
+<td>100,000</td>
+<td>$0.0186</td>
+<td>39%</td>
+<td>$1,855.5</td>
+<td>$0.0055</td>
+<td>76%</td>
+<td>$730</td>
+<td>$8,760.2</td>
+</tr>
+<tr>
+<td>500K</td>
+<td>500,000</td>
+<td>$0.0176</td>
+<td>42%</td>
+<td>$8,821.1</td>
+<td>$0.0048</td>
+<td>79%</td>
+<td>$3,194</td>
+<td>$38,326.1</td>
+</tr>
+<tr>
+<td>1M</td>
+<td>1,000,000</td>
+<td>$0.0167</td>
+<td>45%</td>
+<td>$16,729.6</td>
+<td>$0.0041</td>
+<td>82%</td>
+<td>$5,475</td>
+<td>$65,701.8</td>
+</tr>
+<tr>
+<td>5M</td>
+<td>5,000,000</td>
+<td>$0.0158</td>
+<td>48%</td>
+<td>$79,085.5</td>
+<td>$0.0035</td>
+<td>85%</td>
+<td>$22,813</td>
+<td>$273,757.5</td>
+</tr>
+<tr>
+<td>10M</td>
+<td>10,000,000</td>
+<td>$0.0149</td>
+<td>51%</td>
+<td>$149,045.8</td>
+<td>$0.0028</td>
+<td>88%</td>
+<td>$36,501</td>
+<td>$438,012.0</td>
+</tr>
+</tbody>
+</table>
+
+
+# Payment Method
+
+You can register Visa or Master card in your project to proceed with payment. Please refer to the [link](https://workshop.simsimi.com/support?lc=en#st_payment_q1) to proceed with payment through account transfer.
 
 You might notice a $0-1 transaction from SimSimi Workshop(or payment agency) after you sign up. This transaction:
 
@@ -15,53 +303,3 @@ You might notice a $0-1 transaction from SimSimi Workshop(or payment agency) aft
 * Might be converted to local currency by your bank.
 * Might appear on your statement for up to a month
 * Contact your bank if you have questions about the authorization.
-
-# Pricing Policy
-The usage cost will be paid from your free credits unless it run out or expire (whichever comes first). If your free credits run out or expire, you only pay for what you use.
-We charge you whenever your account reaches your payment threshold, or the end of each month -- whichever comes first. Any amount less than $1 will automatically be carried forward to the next billing cycle. You can understand your current API usage and estimate your monthly bill in the [console](https://workshop.simsimi.com/dashboard). See below for pricing details on each item.
-
-
-## Smalltalk API
-### Personal
-* Basic charge : Each successful request will be charged a basic rate of $0.001(USD).
-* Additional charges: Following additional charges will apply for each request including Response Control and Additional Information options.
-
-| Type | Parameter | Additional charges (per request) |
-| --- | --- | --- |
-| Response Control | `country` | $0.0001 (USD) |
-| Response Control | `atext_bad_prob_min` | $0.0001 (USD) |
-| Response Control | `atext_bad_prob_max` | $0.0001 (USD) |
-| Response Control | `atext_length_min` | $0.0001 (USD) |
-| Response Control | `atext_length_max` | $0.0001 (USD) |
-| Response Control | `regist_date_min` | $0.0001 (USD) |
-| Response Control | `regist_date_max` | $0.0001 (USD) |
-| Additional Information	 | `country` | $0.0001 (USD) |
-| Additional Information	 | `atext_bad_prob` | $0.0001 (USD) |
-| Additional Information	 | `atext_bad_type` | $0.0001 (USD) |
-| Additional Information	 | `regist_date` | $0.0002 (USD) |
-| Additional Information	 | `qtext` | $0.0005 (USD) |
-
-
-* Pricing examples : 
-If there are 10,000 successful requests, of which 3,000 requests have the `atext_bad_prob_max` and 1,000 requests have the `country` and the `regist_date`, the rate is calculated as follows:
-```
-Basic Charge                                 : 10,000  * $0.001  = $10
-Response Control(atext_bad_prob_max)         :  3,000  * $0.0001 = $ 0.3
-Additional Information(country)              :  1,000  * $0.0001 = $ 0.1
-Additional Information(regist_date)          :  1,000  * $0.0002 = $ 0.2
--------------------------------------------------------------------------
-Total                                        :                     $10.6
-```
-If the above example is the usage of the month you received the free credits, then all the charges will be paid from your free credits and the remaining free credits will be used to pay for the API fee next month.
-```
-$300.0 - $10.6 = $289.4 (USD)
-```
-### Business
-* Please contact our sales team for plans for organization or business customers. (api@simsimi.com)
-
-# Payment Threshold
-After your free credit run out or expire, your usage cost will be charged based on payment information, such as a credit card number you set. You can think of your billing threshold as a way to build up a good payment history with SimSimi Workshop: It's an amount you can spend on the service before we charge you for them. Whenever your ad costs reach your billing threshold, we'll charge you for that amount. When you first start using on SimSimi Workshop, your billing threshold will be automatically set to a small amount. But as you make successful billing threshold payments, it may be raised until your account reaches a final threshold amount.
-
-As an example, let's say you just created your first project, and your account has a billing threshold of $10. As you use the service, it'll accrue costs. If your outstanding costs reach $10, we'll charge you $10. Once your payment goes through, your balance will be cleared, this paid amount is shown as a prepaid amount. Your billing threshold may be raised to a new, higher amount
-
-So in a given month, you could reach your billing threshold once, multiple times or not at all, depending on what your billing threshold is and how much money you're spending on services. This is also why you may be charged multiple times before the automatic payment date.
