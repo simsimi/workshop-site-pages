@@ -10,9 +10,10 @@ code {color:#000080;}
 
 SimSimi Workshop provides a demo project to new members. This project is capable of 100 API calls and has no deadlines. Do not use the demo project for production, as API key is not available after 100 API calls.
 
-# Pricing Policy
+# Pricing Plans
 
-SimSimi Workshop is a prepaid, subscription-type merchandise. For each project, you can choose either Basic or Standard. The differences between the two plans are as follows:
+We offer a pre-paid subscription plan. With this subscription, you need to pay in advance to use the services by way of recharge, which provides you usage time/ balance for usage. Pre-paid services allow you to control your usage as per your need.
+You also have to decide whether to use advanced features. Standard offers a variety of features. The differences between the two plans are as follows:
 
 <table>
 <thead>
@@ -37,7 +38,9 @@ SimSimi Workshop is a prepaid, subscription-type merchandise. For each project, 
 </tbody>
 </table>
 
-The payment cycle takes place monthly from the start of the payment and is automatically paid according to the subscription. You can check your plan at the [console](https://workshop.simsimi.com/dashboard). The detailed pricing policy by product is as follows:
+Your billing cycle is set on the day the project is activated.  automatically charged based on the subscription cycle you choose.  And then, You will be automatically charged monthly or annually, depending on the plan you choose. Use the [SWS console](https://workshop.simsimi.com/dashboard) to monitor your usage, and upgrade your plan. 
+ 
+For detailed pricing information, see the pricing and usage matrix below for each option:
 
 ## Basic
 
