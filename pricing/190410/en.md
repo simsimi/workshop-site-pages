@@ -13,6 +13,7 @@ SimSimi Workshop provides a demo project to new members. This project is capable
 # Pricing Plans
 
 We offer a pre-paid subscription plan. With this subscription, you need to pay in advance to use the services by way of recharge, which provides you usage time/ balance for usage. Pre-paid services allow you to control your usage as per your need.
+
 You also have to decide whether to use advanced features. Standard offers a variety of features. The differences between the two plans are as follows:
 
 <table>
