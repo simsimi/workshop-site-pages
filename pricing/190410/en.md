@@ -39,7 +39,7 @@ You also have to decide whether to use advanced features. Standard offers a vari
 </tbody>
 </table>
 
-Your billing cycle is set on the day the project is activated. Automatically charged based on the subscription cycle you choose.  And then, You will be automatically charged monthly or annually, depending on the plan you choose. Use the [SWS console](https://workshop.simsimi.com/dashboard) to monitor your usage, and upgrade your plan. 
+Your billing cycle is set on the day the project is activated. And then, You will be automatically charged monthly or annually, depending on the plan you choose. Use the [SWS console](https://workshop.simsimi.com/dashboard) to monitor your usage, and upgrade your plan.
  
 For detailed pricing information, see the pricing and usage matrix below for each option:
 
