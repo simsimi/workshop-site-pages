@@ -13,13 +13,13 @@ SimSimi Workshop Services (SWS) provides a service based on 'SimSimi', a small t
 ## Concept
 A ‘talkset’ consists of a pair of question-answer sentences(`qtext`-`atext`). SWS has more than 100 million scenarios repository.
 
-<img src="https://workshop.simsimi.com/static/img/smalltalk_diagram_01e.png" width="300px" alt="SmallTalk API talkset concept diagram">
+<img src="https://workshop.simsimi.com/images/smalltalk_diagram_01e.png" width="300px" alt="SmallTalk API talkset concept diagram">
 
 When a request is received through the SmallTalk API, SWS’s conversation engine(AICR) finds the relevant question sentences(`qtext`) in the talkset repository considering the similarities with a user’s request sentence(`utext`) and some other factors, creates a candidate talksets, and selects the most appropriate talkset filtering/weighing the parameters included in the request and other conditions.
 
 The answer sentence provided by the SmallTalk API is the atext of the talkset selected through this process. If a requested utext is “Have you eaten lunch?”, the SmallTalk API returns an atext through the process like below.
 
-<img src="https://workshop.simsimi.com/static/img/smalltalk_diagram_02e.png" width="600px" alt="SmallTalk API flow diagram">
+<img src="https://workshop.simsimi.com/images/smalltalk_diagram_02e.png" width="600px" alt="SmallTalk API flow diagram">
 
 
 ## Basic Request
