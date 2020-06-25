@@ -4,6 +4,7 @@ style {color:#ffffff;display:hidden}
 h1, h2, h3, h4, h5, h6 {color:#333333;}
 p, li {color:#333333}
 code {color:#000080;}
+.chargeTbody td {text-align:right;}
 </style>
 
 # Demo Project
@@ -63,7 +64,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <th>Price<br/>(annually)</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="chargeTbody">
 <tr>
 <td>100</td>
 <td>100</td>
@@ -199,7 +200,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <th>Price<br/>(annually)</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="chargeTbody">
 <tr>
 <td>100</td>
 <td>100</td>
