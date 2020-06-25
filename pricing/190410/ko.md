@@ -2,8 +2,9 @@
   type="text/css">
 style {color:#ffffff;display:hidden}
 h1, h2, h3, h4, h5, h6 {color:#333333;}
-p, li {color:#333333}
+p, li {color:#333333;}
 code {color:#000080;}
+.tbodytd td {text-align:right;}
 </style>
 
 # 데모 프로젝트
@@ -63,7 +64,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <th>Price<br/>(annually)</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="chargeTbody">
 <tr>
 <td>100</td>
 <td>100</td>
@@ -199,7 +200,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <th>Price<br/>(annually)</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="chargeTbody">
 <tr>
 <td>100</td>
 <td>100</td>
