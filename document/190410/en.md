@@ -81,6 +81,10 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 - `atext_length_max`, `atext_length_min` : Specify the length range of the answer sentence(`atext`). You can control it depending on the chatbot's personality and the context of the conversation. (Integer from 1 to 256; default if not specified: `atext_length_max` is 256,` atext_length_min` is 1)
 　
 - `regist_date_max`, `regist_date_min` : Specify the range of the talkset registration date. You can use it to implement chatbots that are sensitive to the latest trends or chatbots that have stayed in the past.(Use in the foramt `yyyy-MM-dd HH:mm:ss`, default if not specified: `regist_date_max` is now, `regist_date_min` is date of the first talkset registration)　　
+
+- `ko_polite_converter` : Convert Korean response into polite word. This is only usable when `lang` is `ko`. (`true|false`, default if not specified: `false`)
+
+- `suppress_ko_person_name` : Control the exposure of a Korean person's name in response. This is only usable when `lang` is `ko`. (`R`: Filters out most common names)
 　  
 
 
