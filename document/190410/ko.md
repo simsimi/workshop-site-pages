@@ -79,8 +79,12 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 　
 - `atext_length_max`, `atext_length_min` : 응답문장의 길이 범위 지정. 챗봇의 성격이나 대화 상황에 따라서 응답문장의 길이 범위를 정할 수 있습니다.(1 ~ 256의 정수, 미지정시 기본값 `atext_length_max`은 256, `atext_length_min`은 1 )  
 　
-- `regist_date_max`, `regist_date_min` : 대화세트(`talkset`) 등록일 범위 지정. 최신 트랜드에 민감한 챗봇, 과거에 머물러 있는 챗봇 등을 구현하기 위해 사용할 수 있습니다(`yyyy-MM-dd HH:mm:ss` 형식으로 사용, 미지정시 기본값 `regist_date_max`는 현재시간, `regist_date_min`은 최초의 대화세트 등록일)　　
-　  
+- `regist_date_max`, `regist_date_min` : 대화세트(`talkset`) 등록일 범위 지정. 최신 트랜드에 민감한 챗봇, 과거에 머물러 있는 챗봇 등을 구현하기 위해 사용할 수 있습니다.(`yyyy-MM-dd HH:mm:ss` 형식으로 사용, 미지정시 기본값 `regist_date_max`는 현재시간, `regist_date_min`은 최초의 대화세트 등록일)　　
+
+- `ko_polite_converter` : 한국어 응답을 존댓말로 전환. 챗봇이 반말로 하는 응답을 존댓말로 전환해 줍니다. `lang`이 `ko`인 경우에만 사용 가능합니다. (`true|false`, 미지정시 기본값 `false`)
+
+- `suppress_ko_person_name` : 한국어 응답에서 사람의 이름 노출 제어. 챗봇의 응답에서 한국어권 사람의 이름이 나타나는 것을 막을 수 있습니다. `lang`이 `ko`인 경우에만 사용 가능합니다. (`R`: 일반적인 이름을 대부분 걸러냅니다.)
+
 
 
 ## 추가정보 
