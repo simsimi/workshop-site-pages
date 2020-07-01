@@ -325,3 +325,8 @@ You might notice a $0-1 transaction from SimSimi Workshop(or payment agency) aft
 * Might be converted to local currency by your bank.
 * Might appear on your statement for up to a month
 * Contact your bank if you have questions about the authorization.
+
+
+# Free and Discount Usage
+
+SimSimi Workshop Services(SWS) offers discounts and free usage for non-commercial research, as well as developers who develop services that help society or promote the excellence of conversation engines. If you request a discount or free usage, SWS management reviews the public interest, growth, sustainability, suitability, and ripple effects and offers you a free usage or a discount. If you wish to benefit, please fill out the form at the [link](https://forms.gle/gD5E9UmW1ofwMFtw9) and submit it.
