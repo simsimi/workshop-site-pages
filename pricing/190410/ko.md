@@ -80,7 +80,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 </tr>
 <tr>
 <td>1K</td>
-<td>1000</td>
+<td>1,000</td>
 <td>$0.0230</td>
 <td>23%</td>
 <td>$23.0</td>
@@ -92,11 +92,11 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 </tr>
 <tr>
 <td>5K</td>
-<td>5000</td>
+<td>5,000</td>
 <td>$0.0161</td>
 <td>46%</td>
 <td>$80.5</td>
-<td>60000</td>
+<td>60,000</td>
 <td>$0.0076</td>
 <td>75%</td>
 <td>$38</td>
@@ -227,7 +227,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 </tr>
 <tr>
 <td>1K</td>
-<td>1000</td>
+<td>1,000</td>
 <td>$0.0265</td>
 <td>24%</td>
 <td>$26.5</td>
@@ -239,11 +239,11 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 </tr>
 <tr>
 <td>5K</td>
-<td>5000</td>
+<td>5,000</td>
 <td>$0.0186</td>
 <td>47%</td>
 <td>$93.0</td>
-<td>60000</td>
+<td>60,000</td>
 <td>$0.0087</td>
 <td>75%</td>
 <td>$44</td>
