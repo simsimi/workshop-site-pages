@@ -205,6 +205,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <th>Unit price</th>
 <th>Discount</th>
 <th>Price<br/>(monthly)</th>
+<th>Quantity</th>
 <th>Unit Price</th>
 <th>Discount</th>
 <th>Price<br/>(monthly)</th>
