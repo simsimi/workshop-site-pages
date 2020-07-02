@@ -51,13 +51,14 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <tr>
 <th rowspan="2">Plan</th>
 <th colspan="4">Monthly Plan</th>
-<th colspan="4">Annual Plan</th>
+<th colspan="5">Annual Plan</th>
 </tr>
 <tr>
 <th>Quantity</th>
 <th>Unit price</th>
 <th>Discount</th>
 <th>Price<br/>(monthly)</th>
+<th>Quantity</th>
 <th>Unit Price</th>
 <th>Discount</th>
 <th>Price<br/>(monthly)</th>
@@ -75,10 +76,11 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>-</td>
 <td>-</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>1K</td>
-<td>1000</td>
+<td>1,000</td>
 <td>$0.0230</td>
 <td>23%</td>
 <td>$23.0</td>
@@ -86,13 +88,15 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>-</td>
 <td>-</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>5K</td>
-<td>5000</td>
+<td>5,000</td>
 <td>$0.0161</td>
 <td>46%</td>
 <td>$80.5</td>
+<td>60,000</td>
 <td>$0.0076</td>
 <td>75%</td>
 <td>$38</td>
@@ -104,6 +108,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0154</td>
 <td>49%</td>
 <td>$154.0</td>
+<td>120,000</td>
 <td>$0.0069</td>
 <td>77%</td>
 <td>$69</td>
@@ -115,6 +120,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0147</td>
 <td>51%</td>
 <td>$735.0</td>
+<td>600,000</td>
 <td>$0.0062</td>
 <td>79%</td>
 <td>$310</td>
@@ -126,6 +132,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0140</td>
 <td>53%</td>
 <td>$1,400.0</td>
+<td>1,200,000</td>
 <td>$0.0055</td>
 <td>82%</td>
 <td>$550</td>
@@ -137,6 +144,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0133</td>
 <td>56%</td>
 <td>$6,650.0</td>
+<td>6,000,000</td>
 <td>$0.0048</td>
 <td>84%</td>
 <td>$2,400</td>
@@ -148,6 +156,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0127</td>
 <td>58%</td>
 <td>$12,700.0</td>
+<td>12,000,000</td>
 <td>$0.0041</td>
 <td>86%</td>
 <td>$4,100</td>
@@ -159,6 +168,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0120</td>
 <td>60%</td>
 <td>$60,000.0</td>
+<td>60,000,000</td>
 <td>$0.0035</td>
 <td>88%</td>
 <td>$17,500</td>
@@ -170,6 +180,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0113</td>
 <td>62%</td>
 <td>$113,000.0</td>
+<td>120,000,000</td>
 <td>$0.0028</td>
 <td>91%</td>
 <td>$28,000</td>
@@ -187,13 +198,14 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <tr>
 <th rowspan="2">Plan</th>
 <th colspan="4">Monthly Plan</th>
-<th colspan="4">Annual Plan</th>
+<th colspan="5">Annual Plan</th>
 </tr>
 <tr>
 <th>Quantity</th>
 <th>Unit price</th>
 <th>Discount</th>
 <th>Price<br/>(monthly)</th>
+<th>Quantity</th>
 <th>Unit Price</th>
 <th>Discount</th>
 <th>Price<br/>(monthly)</th>
@@ -211,10 +223,11 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>-</td>
 <td>-</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>1K</td>
-<td>1000</td>
+<td>1,000</td>
 <td>$0.0265</td>
 <td>24%</td>
 <td>$26.5</td>
@@ -222,13 +235,15 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>-</td>
 <td>-</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>5K</td>
-<td>5000</td>
+<td>5,000</td>
 <td>$0.0186</td>
 <td>47%</td>
 <td>$93.0</td>
+<td>60,000</td>
 <td>$0.0087</td>
 <td>75%</td>
 <td>$44</td>
@@ -240,6 +255,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0178</td>
 <td>49%</td>
 <td>$178.0</td>
+<td>120,000</td>
 <td>$0.0080</td>
 <td>77%</td>
 <td>$80</td>
@@ -251,6 +267,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0170</td>
 <td>51%</td>
 <td>$850.0</td>
+<td>600,000</td>
 <td>$0.0072</td>
 <td>79%</td>
 <td>$360</td>
@@ -262,6 +279,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0162</td>
 <td>54%</td>
 <td>$1,620.0</td>
+<td>1,200,000</td>
 <td>$0.0064</td>
 <td>82%</td>
 <td>$640</td>
@@ -273,6 +291,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0154</td>
 <td>56%</td>
 <td>$7,700.0</td>
+<td>6,000,000</td>
 <td>$0.0056</td>
 <td>84%</td>
 <td>$2,800</td>
@@ -284,6 +303,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0146</td>
 <td>58%</td>
 <td>$14,600.0</td>
+<td>12,000,000</td>
 <td>$0.0048</td>
 <td>86%</td>
 <td>$4,800</td>
@@ -295,6 +315,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0138</td>
 <td>61%</td>
 <td>$69,000.0</td>
+<td>60,000,000</td>
 <td>$0.0040</td>
 <td>89%</td>
 <td>$20,000</td>
@@ -306,6 +327,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$0.0130</td>
 <td>63%</td>
 <td>$130,000.0</td>
+<td>120,000,000</td>
 <td>$0.0032</td>
 <td>91%</td>
 <td>$32,000</td>
