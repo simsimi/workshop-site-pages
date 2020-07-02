@@ -51,13 +51,14 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <tr>
 <th rowspan="2">플랜</th>
 <th colspan="4">Monthly Plan</th>
-<th colspan="4">Annual Plan</th>
+<th colspan="5">Annual Plan</th>
 </tr>
 <tr>
 <th>Quantity</th>
 <th>Unit price</th>
 <th>Discount</th>
 <th>Price<br/>(monthly)</th>
+<th>Quantity</th>
 <th>Unit Price</th>
 <th>Discount</th>
 <th>Price<br/>(monthly)</th>
@@ -75,6 +76,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <td>-</td>
 <td>-</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>1K</td>
@@ -86,6 +88,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <td>-</td>
 <td>-</td>
 <td>-</td>
+<td>-</td>
 </tr>
 <tr>
 <td>5K</td>
@@ -93,6 +96,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <td>$0.0161</td>
 <td>46%</td>
 <td>$80.5</td>
+<td>60000</td>
 <td>$0.0076</td>
 <td>75%</td>
 <td>$38</td>
@@ -104,6 +108,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <td>$0.0154</td>
 <td>49%</td>
 <td>$154.0</td>
+<td>120,000</td>
 <td>$0.0069</td>
 <td>77%</td>
 <td>$69</td>
@@ -115,6 +120,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <td>$0.0147</td>
 <td>51%</td>
 <td>$735.0</td>
+<td>600,000</td>
 <td>$0.0062</td>
 <td>79%</td>
 <td>$310</td>
@@ -126,6 +132,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <td>$0.0140</td>
 <td>53%</td>
 <td>$1,400.0</td>
+<td>1,200,000</td>
 <td>$0.0055</td>
 <td>82%</td>
 <td>$550</td>
@@ -137,6 +144,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <td>$0.0133</td>
 <td>56%</td>
 <td>$6,650.0</td>
+<td>6,000,000</td>
 <td>$0.0048</td>
 <td>84%</td>
 <td>$2,400</td>
@@ -148,6 +156,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <td>$0.0127</td>
 <td>58%</td>
 <td>$12,700.0</td>
+<td>12,000,000</td>
 <td>$0.0041</td>
 <td>86%</td>
 <td>$4,100</td>
@@ -159,6 +168,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <td>$0.0120</td>
 <td>60%</td>
 <td>$60,000.0</td>
+<td>60,000,000</td>
 <td>$0.0035</td>
 <td>88%</td>
 <td>$17,500</td>
@@ -170,6 +180,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 <td>$0.0113</td>
 <td>62%</td>
 <td>$113,000.0</td>
+<td>120,000,000</td>
 <td>$0.0028</td>
 <td>91%</td>
 <td>$28,000</td>
