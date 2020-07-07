@@ -359,6 +359,7 @@ Bad-Score API offers a prepaid rechargeable plan. Pre-paid services allow you to
   </tbody>
 </table>
 
+
 # Payment Method
 
 You can register Visa or Master card in your project to proceed with payment. Please refer to the [link](https://workshop.simsimi.com/support#I%20want%20to%20pay%20in%20advance.) to proceed with payment through account transfer.
