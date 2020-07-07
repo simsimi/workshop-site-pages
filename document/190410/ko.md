@@ -34,7 +34,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
      }'                     
 ```
 - `utext` : 사용자문장
-- `lang` : 사용자의 언어코드([일상대화 API가 지원하는 언어 및 언어코드](#ST-지원언어))
+- `lang` : 사용자의 언어코드([일상대화 API가 지원하는 언어 및 언어코드](#일상대화-지원언어))
 
 #### 응답예시
 ``` json
@@ -51,7 +51,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 ```
 - `atext` : 답변문장 
 - `request` : 요청 본문
-- `status`, `statusMessage` : 상태정보 ([상태코드표](#ST-상태코드표) 참조)
+- `status`, `statusMessage` : 상태정보 ([상태코드표](#일상대화-상태코드표) 참조)
 
 ## 응답제어
 각 챗봇의 성격에 맞는 응답을 제공하기 위해 응답을 조절하기 위한 옵션들을 제공합니다.
@@ -130,7 +130,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 - `regist_date` : 대화세트 생성 시점
 
 
-## ST 지원언어
+## 일상대화 지원언어
 대부분의 언어코드는 ISO-639-1과 동일하지만, 다른 사례(*)가 있으니 주의하세요.
 
 |언어명	|	 언어명(네이티브)	|	 언어코드|
@@ -217,7 +217,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 |키냐르완다어	|	 Ikinyarwanda	|	 rw|
 |중국어 (번체)	|	 繁體中文	|	 zh*|
 
-## ST 상태코드표
+## 일상대화 상태코드표
 
 |`status` | `statusMessage` | 설명 | 
 | --- | --- | --- |
@@ -258,7 +258,7 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
      }'                     
 ```
 - `sentence` : 사용자문장
-- `lang` : 사용자의 언어코드([나쁜말 판별기 API가 지원하는 언어 및 언어코드](#BS-지원언어))
+- `lang` : 사용자의 언어코드([나쁜말 판별기 API가 지원하는 언어 및 언어코드](#나쁜말점수-지원언어))
 - `type` : 나쁜말 판별에 사용할 기법. 현재는 DPD만 지원합니다.
 
 #### 응답예시
@@ -275,9 +275,9 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 ```
 - `bad` : 문장이 나쁜 말일 확률
 - `request` : 요청 본문
-- `status`, `statusMessage` : 상태정보 ([상태코드표](#BS-상태코드표) 참조)
+- `status`, `statusMessage` : 상태정보 ([상태코드표](#나쁜말점수-상태코드표) 참조)
 
-## BS 지원언어
+## 나쁜말점수 지원언어
 대부분의 언어코드는 ISO-639-1과 동일하지만, 다른 사례(*)가 있으니 주의하세요.
 
 |언어명	|	 언어명(네이티브)	|	 언어코드|
@@ -293,7 +293,7 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 |프랑스어	|	 Français	|	 fr|
 |한국어	|	 한국어	|	 ko|
 
-## BS 상태코드표
+## 나쁜말점수 상태코드표
 
 |`status` | `statusMessage` | 설명 | 
 | --- | --- | --- |
