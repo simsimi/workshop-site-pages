@@ -244,7 +244,7 @@ With the world's best conversational sentence classification technology, you can
 -The Bad Score API determines the expressions in which the sentence itself directly violates the content regulation for dialogue sentences mainly used for chatting. However, it is excluded from the scope of discrimination in the context of the previous dialogue or the meaning and multi-semantic expression formed in response to the utterance of the counterpart.
 
 ## Request
-You can receive a response by requesting to the SmallTalk API endpoint(`https://wsapi.simsimi.com/{VERSION}/classify/bad`) with the appropriate method(POST), project key, and required parameters(`sentence`, `lang`, `type`).
+You can receive a response by requesting to the Bad-Score API endpoint(`https://wsapi.simsimi.com/{VERSION}/classify/bad`) with the appropriate method(POST), project key, and required parameters(`sentence`, `lang`, `type`).
 
 #### Example Request
 ``` bash
