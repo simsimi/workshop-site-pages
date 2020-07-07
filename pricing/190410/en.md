@@ -46,7 +46,7 @@ Your billing cycle is set on the day the project is activated. And then, You wil
  
 For detailed pricing information, see the pricing and usage matrix below for each option:
 
-### Basic
+#### Basic
 
 <table style="margin-bottom: 30px;">
 <thead>
@@ -193,7 +193,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 
 
 
-### Standard
+#### Standard
 
 <table>
 <thead>
