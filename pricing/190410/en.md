@@ -9,7 +9,7 @@ code {color:#000080;}
 
 # Demo Project
 
-SimSimi Workshop provides a demo project to new members. This project is capable of 100 API calls and has no deadlines. Do not use the demo project for production, as API key is not available after 100 API calls.
+SimSimi Workshop provides a demo project to new members. This project is capable of 100 SmallTalk API calls and has no deadlines. Do not use the demo project for production, as API key is not available after 100 API calls.
 
 # Pricing Plans
 
