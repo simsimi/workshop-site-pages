@@ -13,7 +13,9 @@ Simsimi Workshop 에서는 신규 가입자에게 데모 프로젝트를 제공�
 
 # 가격정책
 
-Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에는 선불로 사용 가능한 시간/ 잔여량을 재충전하는 방식으로 서비스를 이용하실 수 있습니다. 선불 서비스는 사용자가 필요한 만큼만 사용 할 수 있게 합니다.
+## SmallTalk
+
+SmallTalk API는 선불 구독형 플랜을 제공합니다. 구독한 후에는 선불로 사용 가능한 시간/ 잔여량을 재충전하는 방식으로 서비스를 이용하실 수 있습니다. 선불 서비스는 사용자가 필요한 만큼만 사용 할 수 있게 합니다.
 
 또한 사용자는 향상된 기능을 사용 할지 여부를 결정할 수 있습니다. Standard 플랜은 다양한 기능을 제공합니다. 두 플랜의 차이는 다음과 같습니다.
 
@@ -44,7 +46,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 
 더 자세한 가격 정보에 대해서는 각 옵션의 가격과 사용량에 대한 다음 표를 보십시오.
 
-## Basic
+### Basic
 
 <table style="margin-bottom: 30px;">
 <thead>
@@ -191,7 +193,7 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 
 
 
-## Standard
+### Standard
 
 <table>
 <thead>
@@ -336,7 +338,27 @@ Simsimi Workshop은 선불 구독형 플랜을 제공합니다. 구독한 후에
 </tbody>
 </table>
 
+## Bad-Score
 
+Bad-Score API는 선불 충전형 플랜을 제공합니다. 선불 서비스는 사용자가 필요한 만큼만 사용할 수 있게 합니다. 최소 충전 단위는 1,000 call입니다.
+
+<table>
+  <thead>
+    <tr>
+      <th>플랜</th>
+      <th>사용량</th>
+      <th>가격</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bad-Score 1000 Calls</td>
+      <td>1,000</td>
+      <td>$3.00</td>
+    </tr>
+  </tbody>
+</table>
+  
 # 결제 수단
 
 Visa, Master 카드를 프로젝트에 등록하여 결제를 진행하실 수 있습니다. 계좌 이체를 통해 결제를 진행하고 싶으시다면 [링크](https://workshop.simsimi.com/support#%EC%84%A0%EB%B6%88%EB%A1%9C%20%EA%B2%B0%EC%A0%9C%ED%95%98%EA%B3%A0%20%EC%8B%B6%EC%8A%B5%EB%8B%88%EB%8B%A4.)를 참조하여 주십시오.
