@@ -36,7 +36,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
      }'                     
 ```
 - `utext` : Sentence that a user entered in your chatbot(100 characters max.)
-- `lang` : Language code ( [language-language code table](#ST-Supported-languages) )
+- `lang` : Language code ( [language-language code table](#SmallTalk-Supported-languages) )
 
 #### Example Response
 ``` json
@@ -53,7 +53,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 ```
 - `atext` : answer sentence 
 - `request` : request body
-- `status`, `statusMessage` : status information ([Status Code List](#ST-Status-Code))
+- `status`, `statusMessage` : status information ([Status Code List](#SmallTalk-Status-Code))
 
 ## Response Control
 SmallTalk API provides options for controlling response. For example, if you want your bot to answer sentences(`atext`) with a [Badword Probability](#badword-probability) of 70% or less among the talksets generated in the United States, you can request by adding the following two options.
@@ -131,7 +131,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 - `regist_date` : The creation time of the talkset.
 
 
-## ST Supported languages
+## SmallTalk Supported languages
 Most language codes are the same as ISO-639-1, but note that there are other cases(*).
 
 |Language Name		|	 Name	|	 Language Code|
@@ -218,7 +218,7 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 |Vietnamese	 |Tiếng Việt	 |vn*|
 |Welsh	 |Cymraeg	 |cy|
 
-## ST Status Code
+## SmallTalk Status Code
 
 |`status` | `statusMessage` | Description | 
 | --- | --- | --- |
@@ -258,7 +258,7 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
      }'                     
 ```
 - `sentence` : Sentence for badword classification
-- `lang` : Language code ([language-language code table](#BS-Supported-languages))
+- `lang` : Language code ([language-language code table](#BadScore-Supported-languages))
 - `type` : A method for badword classification. Currently only DPD is supported.
 
 #### Example Response
@@ -275,9 +275,9 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 ```
 - `bad` : Badword probability
 - `request` : Request body
-- `status`, `statusMessage` : Status information ([Status Code List](#BS-Status-Code))
+- `status`, `statusMessage` : Status information ([Status Code List](#BadScore-Status-Code))
 
-## BS Supported languages
+## BadScore Supported languages
 Most language codes are the same as ISO-639-1, but note that there are other cases(*).
 
 |Language Name		|	 Name	|	 Language Code|
@@ -293,7 +293,7 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 |Turkish	 |Türkçe	 |tr|
 |Vietnamese	 |Tiếng Việt	 |vn*|
 
-## BS Status Code
+## BadScore Status Code
 
 |`status` | `statusMessage` | Description | 
 | --- | --- | --- |
