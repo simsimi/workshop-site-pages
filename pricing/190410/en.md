@@ -338,6 +338,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 </tbody>
 </table>
 
+
 ## Bad-Score
 
 Bad-Score API offers a prepaid rechargeable plan. Pre-paid services allow you to control your usage as per your need. The minimum charging unit is 1,000 calls.
