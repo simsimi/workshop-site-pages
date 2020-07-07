@@ -358,7 +358,8 @@ Bad-Score API는 선불 충전형 플랜을 제공합니다. 선불 서비스는
     </tr>
   </tbody>
 </table>
-  
+
+
 # 결제 수단
 
 Visa, Master 카드를 프로젝트에 등록하여 결제를 진행하실 수 있습니다. 계좌 이체를 통해 결제를 진행하고 싶으시다면 [링크](https://workshop.simsimi.com/support#%EC%84%A0%EB%B6%88%EB%A1%9C%20%EA%B2%B0%EC%A0%9C%ED%95%98%EA%B3%A0%20%EC%8B%B6%EC%8A%B5%EB%8B%88%EB%8B%A4.)를 참조하여 주십시오.
