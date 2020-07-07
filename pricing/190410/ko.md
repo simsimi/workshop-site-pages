@@ -46,7 +46,7 @@ SmallTalk API는 선불 구독형 플랜을 제공합니다. 구독한 후에는
 
 더 자세한 가격 정보에 대해서는 각 옵션의 가격과 사용량에 대한 다음 표를 보십시오.
 
-### Basic
+#### Basic
 
 <table style="margin-bottom: 30px;">
 <thead>
@@ -193,7 +193,7 @@ SmallTalk API는 선불 구독형 플랜을 제공합니다. 구독한 후에는
 
 
 
-### Standard
+#### Standard
 
 <table>
 <thead>
