@@ -34,7 +34,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
      }'                     
 ```
 - `utext` : 사용자문장
-- `lang` : 사용자의 언어코드([일상대화 API가 지원하는 언어 및 언어코드](#지원언어))
+- `lang` : 사용자의 언어코드([일상대화 API가 지원하는 언어 및 언어코드](#SmallTalk-지원언어))
 
 #### 응답예시
 ``` json
@@ -51,7 +51,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 ```
 - `atext` : 답변문장 
 - `request` : 요청 본문
-- `status`, `statusMessage` : 상태정보 ([상태코드표](#상태코드표) 참조)
+- `status`, `statusMessage` : 상태정보 ([상태코드표](#SmallTalk-상태코드표) 참조)
 
 ## 응답제어
 각 챗봇의 성격에 맞는 응답을 제공하기 위해 응답을 조절하기 위한 옵션들을 제공합니다.
@@ -130,7 +130,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 - `regist_date` : 대화세트 생성 시점
 
 
-## 지원언어
+## SmallTalk 지원언어
 대부분의 언어코드는 ISO-639-1과 동일하지만, 다른 사례(*)가 있으니 주의하세요.
 
 |언어명	|	 언어명(네이티브)	|	 언어코드|
@@ -217,7 +217,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 |키냐르완다어	|	 Ikinyarwanda	|	 rw|
 |중국어 (번체)	|	 繁體中文	|	 zh*|
 
-## 상태코드표
+## SmallTalk 상태코드표
 
 |`status` | `statusMessage` | 설명 | 
 | --- | --- | --- |
@@ -231,4 +231,73 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 ## 나쁜말확률
 나쁜말확률은 불건전한(또는 악성) 문장을 구별하기 위해 심심이팀이 개발한 지표입니다. 뛰어난 성능을 보이는 고급 딥러닝 기술을 포함해 다양한 기법을 동원하여 산출합니다. 자세한 내용은 다음 블로그 포스트를 참고하시기 바랍니다. ([심심이 대화 품질 - 나쁜말 필터 관련 기술](http://blog.simsimi.com/2019/03/blog-post.html))
 
+# 나쁜말점수 API
 
+세계 최고 성능의 대화체 문장 분류 기술로 게임 내 채팅, 실시간 방송 채팅, 게시판 덧글, 다국어 커뮤니케이션 등에서 욕설이나 선정적인 문장을 정확하고 유연하게 판별해 낼 수 있습니다. 전통적인 단어와 문구 필터 방식(WPF)에서도 다양한 옵션을 제공하며 통계 기반의 확률적 유사성 기반 분류 기법(STAPX)은 가장 많은 언어를 커버합니다. 심층신경망 모델 기반 문장 분류 기법(DPD)은 99.3% 이상의 F1 Score를 기록하였으며(한국어 기준) 크라우드소싱으로 10명의 패널이 검증하는 최상위 신뢰도의 분류 기법(HB10A)까지 활용할 수 있습니다.
+
+## 판별 범위와 점수 기준  
+
+- 심심이 컨텐츠 금지 규정에 해당하는 문장에 높은 점수가 부여됩니다.  
+[심심이 컨텐츠 금지 규정](https://workshop.simsimi.com/support#%EC%8B%AC%EC%8B%AC%EC%9D%B4%20%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%98%20%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%A0%95%EC%B1%85%EC%9D%84%20%EC%95%8C%EB%A0%A4%EC%A3%BC%EC%84%B8%EC%9A%94)
+
+- 주로 '채팅에 사용되는 대화체 문장'에서, '문장 자체가 직접적으로 나쁜말(판별기준 참고)에 해당하는 표현'을 판별합니다. 이전 대화의 맥락, 상대방의 대화와 조응하여 형성되는 의미 및 중의적 표현은 판별 범위에서 제외됩니다.
+
+## 요청
+
+나쁜말 판별기 API 엔드포인트(`https://wsapi.simsimi.com/{VERSION}/classify/bad`)를 향해 프로젝트키, 필수파라미터 3개(문장 `sentence`, 언어코드 `lang`, 타입 `type`)를 명시하여 POST 요청하면 응답을 받을 수 있습니다. 
+
+#### 요청예시
+``` bash
+curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
+     -H "Content-Type: application/json" \
+     -H "x-api-key: PASTE_YOUR_PROJECT_KEY_HERE" \
+     -d '{
+            "sentence": "시발", 
+            "lang": "ko",
+            "type": "DPD"
+     }'                     
+```
+- `sentence` : 사용자문장
+- `lang` : 사용자의 언어코드([나쁜말 판별기 API가 지원하는 언어 및 언어코드](#Bad-Score-지원언어))
+- `type` : 나쁜말 판별에 사용할 기법. 현재는 DPD만 지원합니다.
+
+#### 응답예시
+``` json
+{
+  "status":200,
+  "statusMessage":"Ok",
+  "bad":"0.999993",
+  "request":{
+    "sentence":"시발",
+    "lang":"ko"
+    }
+}    
+```
+- `bad` : 문장이 나쁜 말일 확률
+- `request` : 요청 본문
+- `status`, `statusMessage` : 상태정보 ([상태코드표](#Bad-Score-상태코드표) 참조)
+
+## Bad-Score 지원언어
+대부분의 언어코드는 ISO-639-1과 동일하지만, 다른 사례(*)가 있으니 주의하세요.
+
+|언어명	|	 언어명(네이티브)	|	 언어코드|
+| --- | --- | --- |
+|말레이어	|	 Melayu	|	 ms|
+|베트남어	|	 Tiếng Việt	|	 vn*|
+|스페인어	|	 español	|	 es|
+|아랍어	|	 العربية	|	 ar|
+|영어	|	 English	|	 en|
+|인도네시아어	|	 Bahasa Indonesia	|	 id|
+|터키어	|	 Türkçe	|	 tr|
+|포르투갈어	|	 português	|	 pt|
+|프랑스어	|	 Français	|	 fr|
+|한국어	|	 한국어	|	 ko|
+
+## Bad-Score 상태코드표
+
+|`status` | `statusMessage` | 설명 | 
+| --- | --- | --- |
+|200 | 	OK | 정상 |
+|403 |	Unauthorized | 유효하지 않은 API Key |
+|429 |	Limit Exceeded | 사용 한도 초과 |
+|500 |	Server error | 서버 오류 |
