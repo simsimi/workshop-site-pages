@@ -13,6 +13,8 @@ SimSimi Workshop provides a demo project to new members. This project is capable
 
 # Pricing Plans
 
+## SmallTalk
+
 We offer a pre-paid subscription plan. With this subscription, you need to pay in advance to use the services by way of recharge, which provides you usage time/ balance for usage. Pre-paid services allow you to control your usage as per your need.
 
 You also have to decide whether to use advanced features. Standard offers a variety of features. The differences between the two plans are as follows:
@@ -44,7 +46,7 @@ Your billing cycle is set on the day the project is activated. And then, You wil
  
 For detailed pricing information, see the pricing and usage matrix below for each option:
 
-## Basic
+### Basic
 
 <table style="margin-bottom: 30px;">
 <thead>
@@ -191,7 +193,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 
 
 
-## Standard
+### Standard
 
 <table>
 <thead>
@@ -336,6 +338,26 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 </tbody>
 </table>
 
+## Bad-Score
+
+Bad-Score API offers a prepaid rechargeable plan. Pre-paid services allow you to control your usage as per your need. The minimum charging unit is 1,000 calls.
+
+<table>
+  <thead>
+    <tr>
+      <th>Plan</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bad-Score 1000 Calls</td>
+      <td>1,000</td>
+      <td>$3.00</td>
+    </tr>
+  </tbody>
+</table>
 
 # Payment Method
 
