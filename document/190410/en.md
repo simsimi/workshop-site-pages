@@ -36,7 +36,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
      }'                     
 ```
 - `utext` : Sentence that a user entered in your chatbot(100 characters max.)
-- `lang` : Language code ( [language-language code table](#list-of-supported-languages-and-language-codes) )
+- `lang` : Language code ( [language-language code table](#SmallTalk-Supported-languages) )
 
 #### Example Response
 ``` json
@@ -53,7 +53,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 ```
 - `atext` : answer sentence 
 - `request` : request body
-- `status`, `statusMessage` : status information ([Status Code List](#status-code-and-status-messages))
+- `status`, `statusMessage` : status information ([Status Code List](#SmallTalk-Status-Code))
 
 ## Response Control
 SmallTalk API provides options for controlling response. For example, if you want your bot to answer sentences(`atext`) with a [Badword Probability](#badword-probability) of 70% or less among the talksets generated in the United States, you can request by adding the following two options.
@@ -131,7 +131,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 - `regist_date` : The creation time of the talkset.
 
 
-## List of supported languages and language codes
+## SmallTalk Supported languages
 Most language codes are the same as ISO-639-1, but note that there are other cases(*).
 
 |Language Name		|	 Name	|	 Language Code|
@@ -218,7 +218,7 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 |Vietnamese	 |Tiếng Việt	 |vn*|
 |Welsh	 |Cymraeg	 |cy|
 
-## Status Code and Status Messages
+## SmallTalk Status Code
 
 |`status` | `statusMessage` | Description | 
 | --- | --- | --- |
@@ -232,3 +232,72 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 ## Badword Probability
 The Badword Probability is an index developed by the SimSimi team to identify how unhealthy/malicious a sentence is, and there are some distinguishing techniques for index calculation including advanced deep learning with superior performance. For more information, please see the blog post, [Malcious Sentence Classification Techniques in the SimSimi Service (Korean)](http://blog.simsimi.com/2019/03/blog-post.html).
 
+# Bad Score API
+
+With the world's best conversational sentence classification technology, you can accurately and flexibly identify abusive or sensational sentences in in-game chat, real-time broadcast chat, bulletin board comments, and multilingual communication. Using this API, you can also get a variety of options in the traditional word and phrase filter method (WPF), and cover most languages with statistical-based probabilistic similarity-based classification techniques (STAPX). Our deep neural network model-based sentence classification technique (DPD) scored more than 99.3% of F1 score (in Korean), and you can utilize even the highest reliability classification technique (HB10A) verified by 10 panels in a short time by crowdsourcing. can.
+
+## Scoring and Scope
+
+-The more a given sentence violates the SimSimi content rules, the higher the score.
+[SimSimi content rules](https://workshop.simsimi.com/en/support#Please%20let%20me%20know%20the%20content%20policy%20of%20the%20SimSimi%20service)
+
+-The Bad Score API determines the expressions in which the sentence itself directly violates the content regulation for dialogue sentences mainly used for chatting. However, it is excluded from the scope of discrimination in the context of the previous dialogue or the meaning and multi-semantic expression formed in response to the utterance of the counterpart.
+
+## Request
+You can receive a response by requesting to the SmallTalk API endpoint(`https://wsapi.simsimi.com/{VERSION}/classify/bad`) with the appropriate method(POST), project key, and required parameters(`sentence`, `lang`, `type`).
+
+#### Example Request
+``` bash
+curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
+     -H "Content-Type: application/json" \
+     -H "x-api-key: PASTE_YOUR_PROJECT_KEY_HERE" \
+     -d '{
+            "sentence": "fuck", 
+            "lang": "en",
+            "type": "DPD"
+     }'                     
+```
+- `sentence` : Sentence for badword classification
+- `lang` : Language code ([language-language code table](#Bad-Score-Supported-languages))
+- `type` : A method for badword classification. Currently only DPD is supported.
+
+#### Example Response
+``` json
+{
+  "status":200,
+  "statusMessage":"Ok",
+  "bad":"0.985149",
+  "request":{
+    "sentence":"fuck",
+    "lang":"en"
+    }
+} 
+```
+- `bad` : Badword probability
+- `request` : Request body
+- `status`, `statusMessage` : Status information ([Status Code List](#Bad-Score-Status-Code))
+
+## Bad-Score Supported languages
+Most language codes are the same as ISO-639-1, but note that there are other cases(*).
+
+|Language Name		|	 Name	|	 Language Code|
+| --- | --- | --- |
+|Arabic	 |العربية	 |ar|
+|English	 |English	 |en|
+|French	 |Français	 |fr|
+|Indonesian	 |Bahasa Indonesia	 |id|
+|Korean	 |한국어	 |ko|
+|Malay	 |Melayu	 |ms|
+|Portuguese	 |português	 |pt|
+|Spanish	 |español	 |es|
+|Turkish	 |Türkçe	 |tr|
+|Vietnamese	 |Tiếng Việt	 |vn*|
+
+## Bad-Score Status Code
+
+|`status` | `statusMessage` | Description | 
+| --- | --- | --- |
+|200 | 	OK | Normal |
+|403 |	Unauthorized | Invalid API Key |
+|429 |	Limit Exceeded | - |
+|500 |	Server error | - |
