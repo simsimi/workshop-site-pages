@@ -36,7 +36,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
      }'                     
 ```
 - `utext` : Sentence that a user entered in your chatbot(100 characters max.)
-- `lang` : Language code ( [language-language code table](#SmallTalk-Supported-languages) )
+- `lang` : Language code ( [language-language code table](#SmallTalk-Supported-Languages) )
 
 #### Example Response
 ``` json
@@ -131,7 +131,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 - `regist_date` : The creation time of the talkset.
 
 
-## SmallTalk Supported languages
+## SmallTalk Supported Languages
 Most language codes are the same as ISO-639-1, but note that there are other cases(*).
 
 |Language Name		|	 Name	|	 Language Code|
@@ -141,32 +141,32 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 |Arabic	 |العربية	 |ar|
 |Armenian	 |հայերեն	 |hy|
 |Azerbaijani	 |Azərbaycanca	 |az|
-|Basque	 |euskara	 |eu|
+|Basque	 |Euskara	 |eu|
 |Belarusian	 |беларуская	 |be|
 |Bengali	 |বাংলা	 |bn|
-|Bosnian	 |bosanski	 |bs|
+|Bosnian	 |Bosanski	 |bs|
 |Bulgarian	 |български	 |bg|
-|Catalan	 |català	 |ca|
+|Catalan	 |Català	 |ca|
 |Cebuano	 |Cebuano	 |cx*|
 |Chinese	 |中文	 |ch*|
-|Croatian	 |hrvatski	 |hr|
+|Croatian	 |Hrvatski	 |hr|
 |Czech	 |čeština	 |cs|
 |Danish	 |Dansk	 |da|
 |Dutch	 |Nederlands	 |nl|
 |English	 |English	 |en|
-|Estonian	 |eesti	 |et|
+|Estonian	 |Eesti	 |et|
 |Filipino	 |Filipino	 |ph*|
-|Finnish	 |suomi	 |fi|
+|Finnish	 |Suomi	 |fi|
 |French	 |Français	 |fr|
 |Frisian	 |Frysk	 |fy|
-|Galician	 |galego	 |gl|
+|Galician	 |Galego	 |gl|
 |Georgian	 |ქართული	 |ka|
 |German	 |Deutsch	 |de|
 |Greek	 |Ελληνικά	 |el|
 |Gujarati	 |ગુજરાતી	 |gu|
 |Hebrew	 |עברית	 |he|
 |Hindi	 |हिन्दी	 |hi|
-|Hungarian	 |magyar	 |hu|
+|Hungarian	 |Magyar	 |hu|
 |Icelandic	 |íslenska	 |is|
 |Indonesian	 |Bahasa Indonesia	 |id|
 |Italian	 |Italiano	 |it|
@@ -176,8 +176,8 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 |Khmer	 |ភាសាខ្មែរ	 |kh*|
 |Korean	 |한국어	 |ko|
 |Kurdish (Kurmanji)	 |Kurdî (Kurmancî)	 |ku|
-|Latvian	 |latviešu	 |lv|
-|Lithuanian	 |lietuvių	 |lt|
+|Latvian	 |Latviešu	 |lv|
+|Lithuanian	 |Lietuvių	 |lt|
 |Macedonian	 |македонски	 |mk|
 |Malay	 |Melayu	 |ms|
 |Malayalam	 |മലയാളം	 |ml|
@@ -185,7 +185,7 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 |Mongolian	 |Монгол	 |mn|
 |Myanmar (Burmese)	 |မြန်မာဘာသာ	 |my|
 |Nepali	 |नेपाली	 |ne|
-|Norwegian	 |norsk	 |nb|
+|Norwegian	 |Norsk	 |nb|
 |Assamese	 |অসমীয়া	 |as|
 |Breton	 |Brezhoneg	 |br|
 |Guaraní	 |Guarani	 |gn|
@@ -195,18 +195,18 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 |Chinese – Traditional	 |繁體中文	 |zh*|
 |Pashto	 |پښتو	 |ps|
 |Persian	 |فارسی	 |fa|
-|Polish	 |polski	 |pl|
-|Portuguese	 |português	 |pt|
+|Polish	 |Polski	 |pl|
+|Portuguese	 |Português	 |pt|
 |Punjabi	 |ਪੰਜਾਬੀ	 |pa|
 |Romanian	 |Română	 |ro|
 |Russian	 |русский	 |ru|
 |Serbian	 |српски	 |rs*|
 |Sinhala	 |සිංහල	 |si|
-|Slovak	 |slovenčina	 |sk|
-|Slovenian	 |slovenščina	 |sl|
-|Spanish	 |español	 |es|
+|Slovak	 |Slovenčina	 |sk|
+|Slovenian	 |Slovenščina	 |sl|
+|Spanish	 |Español	 |es|
 |Swahili	 |Kiswahili	 |sw|
-|Swedish	 |svenska	 |sv|
+|Swedish	 |Svenska	 |sv|
 |Tajik	 |Тоҷикӣ	 |tg|
 |Tamil	 |தமிழ்	 |ta|
 |Telugu	 |తెలుగు	 |te|
@@ -258,7 +258,7 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
      }'                     
 ```
 - `sentence` : Sentence for badword classification
-- `lang` : Language code ([language-language code table](#BadScore-Supported-languages))
+- `lang` : Language code ([language-language code table](#BadScore-Supported-Languages))
 - `type` : A method for badword classification. Currently only DPD is supported.
 
 #### Example Response
@@ -277,7 +277,7 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 - `request` : Request body
 - `status`, `statusMessage` : Status information ([Status Code List](#BadScore-Status-Code))
 
-## BadScore Supported languages
+## BadScore Supported Languages
 Most language codes are the same as ISO-639-1, but note that there are other cases(*).
 
 |Language Name		|	 Name	|	 Language Code|
@@ -288,8 +288,8 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 |Indonesian	 |Bahasa Indonesia	 |id|
 |Korean	 |한국어	 |ko|
 |Malay	 |Melayu	 |ms|
-|Portuguese	 |português	 |pt|
-|Spanish	 |español	 |es|
+|Portuguese	 |Português	 |pt|
+|Spanish	 |Español	 |es|
 |Turkish	 |Türkçe	 |tr|
 |Vietnamese	 |Tiếng Việt	 |vn*|
 
