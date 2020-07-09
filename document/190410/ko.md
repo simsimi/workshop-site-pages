@@ -135,38 +135,38 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 
 |언어명	|	 언어명(네이티브)	|	 언어코드|
 | --- | --- | --- |
-|갈리시아어	|	 galego	|	 gl|
+|갈리시아어	|	 Galego	|	 gl|
 |구자라트어	|	 ગુજરાતી	|	 gu|
 |그루지야어	|	 ქართული	|	 ka|
 |그리스어	|	 Ελληνικά	|	 el|
 |네덜란드어	|	 Nederlands	|	 nl|
 |네팔어	|	 नेपाली	|	 ne|
-|노르웨이어(보크몰)	|	 norsk	|	 nb|
+|노르웨이어(보크몰)	|	 Norsk	|	 nb|
 |덴마크어	|	 Dansk	|	 da|
 |독일어	|	 Deutsch	|	 de|
-|라트비아어	|	 latviešu	|	 lv|
+|라트비아어	|	 Latviešu	|	 lv|
 |러시아어	|	 русский	|	 ru|
 |루마니아어	|	 Română	|	 ro|
-|리투아니아어	|	 lietuvių	|	 lt|
+|리투아니아어	|	 Lietuvių	|	 lt|
 |마라티어	|	 मराठी	|	 mr|
 |마케도니아어	|	 македонски	|	 mk|
 |말라얄람어	|	 മലയാളം	|	 ml|
 |말레이어	|	 Melayu	|	 ms|
 |몽골어	|	 Монгол	|	 mn|
-|바스크어	|	 euskara	|	 eu|
+|바스크어	|	 Euskara	|	 eu|
 |버마어	|	 မြန်မာဘာသာ	|	 my|
 |베트남어	|	 Tiếng Việt	|	 vn*|
 |벨로루시어	|	 беларуская	|	 be|
 |벵골어	|	 বাংলা	|	 bn|
-|보스니아어	|	 bosanski	|	 bs|
+|보스니아어	|	 Bosanski	|	 bs|
 |불가리아어	|	 български	|	 bg|
 |세르비아어	|	 српски	|	 rs*|
 |세부아노	|	 Cebuano	|	 cx*|
 |스와힐리어	|	 Kiswahili	|	 sw|
-|스웨덴어	|	 svenska	|	 sv|
-|스페인어	|	 español	|	 es|
-|슬로바키아어	|	 slovenčina	|	 sk|
-|슬로베니아어	|	 slovenščina	|	 sl|
+|스웨덴어	|	 Svenska	|	 sv|
+|스페인어	|	 Español	|	 es|
+|슬로바키아어	|	 Slovenčina	|	 sk|
+|슬로베니아어	|	 Slovenščina	|	 sl|
 |신할라어	|	 සිංහල	|	 si|
 |아랍어	|	 العربية	|	 ar|
 |아르메니아어	|	 հայերեն	|	 hy|
@@ -174,7 +174,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 |아제르바이잔어	|	 Azərbaycanca	|	 az|
 |아프리칸스어	|	 Afrikaans	|	 af|
 |알바니아어	|	 Shqip	|	 al*|
-|에스토니아어	|	 eesti	|	 et|
+|에스토니아어	|	 Eesti	|	 et|
 |영어	|	 English	|	 en|
 |우르두어	|	 Урду	|	 ur|
 |우즈베크어	|	 O‘zbek	|	 uz|
@@ -186,11 +186,11 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 |중국어	|	 中文	|	 ch*|
 |체코어	|	 čeština	|	 cs|
 |카자흐어	|	 қазақ	|	 kk|
-|카탈로니아어	|	 català	|	 ca|
+|카탈로니아어	|	 Català	|	 ca|
 |칸나다어	|	 ಕನ್ನಡ	|	 kn|
 |캄보디아어	|	 ភាសាខ្មែរ	|	 kh*|
 |쿠르드어	|	 Kurdî (Kurmancî)	|	 ku|
-|크로아티아어	|	 hrvatski	|	 hr|
+|크로아티아어	|	 Hrvatski	|	 hr|
 |타갈로그어	|	 Filipino	|	 ph*|
 |타밀어	|	 தமிழ்	|	 ta|
 |타직어	|	 Тоҷикӣ	|	 tg|
@@ -200,13 +200,13 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 |파슈토어	|	 پښتو	|	 ps|
 |펀자브어	|	 ਪੰਜਾਬੀ	|	 pa|
 |페르시아어	|	 فارسی	|	 fa|
-|포르투갈어	|	 português	|	 pt|
-|폴란드어	|	 polski	|	 pl|
+|포르투갈어	|	 Português	|	 pt|
+|폴란드어	|	 Polski	|	 pl|
 |프랑스어	|	 Français	|	 fr|
 |프리지아어	|	 Frysk	|	 fy|
-|핀란드어	|	 suomi	|	 fi|
+|핀란드어	|	 Suomi	|	 fi|
 |한국어	|	 한국어	|	 ko|
-|헝가리어	|	 magyar	|	 hu|
+|헝가리어	|	 Magyar	|	 hu|
 |히브리어	|	 עברית	|	 he|
 |힌디어	|	 हिन्दी	|	 hi|
 |아삼어	|	 অসমীয়া	|	 as|
@@ -284,12 +284,12 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 | --- | --- | --- |
 |말레이어	|	 Melayu	|	 ms|
 |베트남어	|	 Tiếng Việt	|	 vn*|
-|스페인어	|	 español	|	 es|
+|스페인어	|	 Español	|	 es|
 |아랍어	|	 العربية	|	 ar|
 |영어	|	 English	|	 en|
 |인도네시아어	|	 Bahasa Indonesia	|	 id|
 |터키어	|	 Türkçe	|	 tr|
-|포르투갈어	|	 português	|	 pt|
+|포르투갈어	|	 Português	|	 pt|
 |프랑스어	|	 Français	|	 fr|
 |한국어	|	 한국어	|	 ko|
 
