@@ -56,7 +56,7 @@ Set the atext_bad_prob_max parameter when requesting an API. The Smalltalk API r
 ### What is the principle of determining whether a particular sentence is a bad word?
 Based on the content policy of the SimSimi service. A Badword probability is used to represent the probability that a sentence might violate this policy by several techniques.
 
-[SimSimi Content Policy](https://workshop.simsimi.com/termofuse#prohibitions)
+[SimSimi Content Policy](http://blog.simsimi.com/2017/04/simsimi-terms-and-conditions.html)
 
 ---
 
@@ -73,7 +73,7 @@ The SimSimi service prohibits the following content.
 
 You can see the Terms of Service at the link below.
 
-[SimSimi Terms and Conditions](https://workshop.simsimi.com/termofuse)
+[SimSimi Terms and Conditions](https://workshop.simsimi.com/policy/terms)
 
 ---
 
