@@ -56,7 +56,7 @@ API 요청시 atext_bad_prob_max 파라미터를 설정하세요. 일상대화 A
 ### 문장의 나쁜말 여부를 결정하는 원칙은 뭔가요?
 심심이 서비스의 콘텐츠 정책을 기준으로 합니다. 어떤 문장이 이 정책을 위반했을 가능성을 나쁜말 확률로 결정합니다.
 
-[심심이 서비스 콘텐츠 정책](https://workshop.simsimi.com/termofuse#prohibitions)
+[심심이 서비스 콘텐츠 정책](http://blog.simsimi.com/2017/04/simsimi-terms-and-conditions.html)
 
 ---
 
@@ -73,7 +73,7 @@ API 요청시 atext_bad_prob_max 파라미터를 설정하세요. 일상대화 A
 
 아래 링크에서 심심이 서비스 이용 약관을 확인할 수 있습니다.
 
-[심심이 서비스 이용약관](https://workshop.simsimi.com/termofuse)
+[심심이 서비스 이용약관](https://workshop.simsimi.com/policy/terms)
 
 ---
 
