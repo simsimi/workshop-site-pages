@@ -362,7 +362,7 @@ Bad-Score API offers a prepaid rechargeable plan. Pre-paid services allow you to
 
 ## Teach
 
-We offer a pre-paid subscription plan. With this subscription, you need to pay in advance and then you can get storage which can store certain amount of talksets. Taught talksets will be stored in this storage.
+We offer a pre-paid subscription plan. With this subscription, you need to pay in advance and you can get storage which can save a fixed amount of talksets.
 
 <table>
 <thead>
