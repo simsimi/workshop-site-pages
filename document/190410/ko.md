@@ -301,8 +301,3 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 |403 |	Unauthorized | 유효하지 않은 API Key |
 |429 |	Limit Exceeded | 사용 한도 초과 |
 |500 |	Server error | 서버 오류 |
-
-# 가르치기 API
-
-일상대화 API를 사용하면서 본인이 가르친 말을 우선적으로 나타나게 할 수 있습니다. 
-<span style="color:red;">가르치기 API의 기능을 사용하고 싶다면 일상대화 API standard 버전이 필요합니다.</span>
