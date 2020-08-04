@@ -384,15 +384,15 @@ Teach API는 선불 구독형 플랜을 제공합니다. 구독한 후에는 정
 </thead>
 <tbody class="chargeTbody">
 <tr>
-<td>100</td>
-<td>100</td>
+<td>200</td>
+<td>200</td>
 <td>$0.0150</td>
 <td>-</td>
-<td>$1.5</td>
+<td>$3.0</td>
 <td>$0.015</td>
 <td>-</td>
-<td>$1.5</td>
-<td>$18.0</td>
+<td>$3.0</td>
+<td>$36.0</td>
 </tr>
 <tr>
 <td>500</td>
