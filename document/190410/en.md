@@ -352,7 +352,7 @@ curl -X POST https://wsapi.simsimi.com/190410/teach \
 
 ## SmallTalk API
 
-You can utilize taught talksets by SmallTalk API with project's API key and teach_key. The talksets taught by Teach API can be answered first in SmallTalk API. See the ([Response Control](#Response-Control)) for instructions on how to use it.
+You can utilize taught talksets by SmallTalk API with project's API key and teach_key. The talksets taught by Teach API can be answered first in SmallTalk API. See the ([Response Control](#Response%20Control)) for instructions on how to use it.
 
 ## Talksets Manager
 
