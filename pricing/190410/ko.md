@@ -360,6 +360,131 @@ Bad-Score API는 선불 충전형 플랜을 제공합니다. 선불 서비스는
   </tbody>
 </table>
 
+## Teach
+
+Teach API는 선불 구독형 플랜을 제공합니다. 구독한 후에는 특정 양만큼의 대화세트를 보관 및 가르치실 수 있습니다.
+
+<table>
+<thead>
+<tr>
+<th rowspan="2">플랜</th>
+<th colspan="4">Monthly Plan</th>
+<th colspan="5">Annual Plan</th>
+</tr>
+<tr>
+<th>Quantity</th>
+<th>Unit price</th>
+<th>Discount</th>
+<th>Price<br/>(monthly)</th>
+<th>Unit Price</th>
+<th>Discount</th>
+<th>Price<br/>(monthly)</th>
+<th>Price<br/>(annually)</th>
+</tr>
+</thead>
+<tbody class="chargeTbody">
+<tr>
+<td>100</td>
+<td>100</td>
+<td>$0.0150</td>
+<td>-</td>
+<td>$1.5</td>
+<td>$0.015</td>
+<td>-</td>
+<td>$1.5</td>
+<td>$18.0</td>
+</tr>
+<tr>
+<td>500</td>
+<td>500</td>
+<td>$0.0120</td>
+<td>20%</td>
+<td>$6.0</td>
+<td>$0.011</td>
+<td>27%</td>
+<td>$5.5</td>
+<td>$66.0</td>
+</tr>
+<tr>
+<td>1K</td>
+<td>1,000</td>
+<td>$0.0100</td>
+<td>33%</td>
+<td>$10.0</td>
+<td>$0.0095</td>
+<td>37%</td>
+<td>$9.5</td>
+<td>$114.0</td>
+</tr>
+<tr>
+<td>5K</td>
+<td>5,000</td>
+<td>$0.0085</td>
+<td>43%</td>
+<td>$42.5</td>
+<td>$0.0080</td>
+<td>47%</td>
+<td>$40.0</td>
+<td>$480.0</td>
+</tr>
+<tr>
+<td>10K</td>
+<td>10,000</td>
+<td>$0.0070</td>
+<td>53%</td>
+<td>$70.0</td>
+<td>$0.0065</td>
+<td>57%</td>
+<td>$65.0</td>
+<td>$780.0</td>
+</tr>
+<tr>
+<td>50K</td>
+<td>50,000</td>
+<td>$0.0057</td>
+<td>62%</td>
+<td>$285.0</td>
+<td>$0.0052</td>
+<td>65%</td>
+<td>$260.0</td>
+<td>$3,120.0</td>
+</tr>
+<tr>
+<td>100K</td>
+<td>100,000</td>
+<td>$0.0044</td>
+<td>71%</td>
+<td>$440.0</td>
+<td>$0.0039</td>
+<td>74%</td>
+<td>$390.0</td>
+<td>$4,680.0</td>
+</tr>
+<tr>
+<td>500K</td>
+<td>500,000</td>
+<td>$0.0034</td>
+<td>77%</td>
+<td>$1,700.0</td>
+<td>$0.0029</td>
+<td>81%</td>
+<td>$1,450.0</td>
+<td>$17,400.0</td>
+</tr>
+<tr>
+<td>1M</td>
+<td>1,000,000</td>
+<td>$0.0024</td>
+<td>84%</td>
+<td>$2,400.0</td>
+<td>$0.0020</td>
+<td>87%</td>
+<td>$2,000.0</td>
+<td>$24,000.0</td>
+</tr>
+</tbody>
+</table>
+
 
 # 결제 수단
 
