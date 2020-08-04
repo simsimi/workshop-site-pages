@@ -86,6 +86,12 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 
 - `suppress_ko_person_name` : Control the exposure of a Korean person's name in response. This is only usable when `lang` is `ko`. (`R`: Filters out most common names)
 　  
+   
+#### Utilize Teach API
+
+- `teach_api_key` : Enter the API key of the Teach API project you want to utilize, and then taught talksets will be answered first. If there is no talksets related to the utext, you will get the same result as you didn't include `teach_api_key` parameter. If the taught talkset is answered, it does not work with other response control and additional information parameters.
+
+- `teach_key` : Only talksets correspond to the teach_key you entered when you used Teach API can be answered. If you want answers regardless of the teach_key, you don't have to include the parameter. If none of the talksets correspond to the teach_key entered, you will get the same result as you didn't include `teach_api_key` parameter.
 
 
 ## Request Additional Information 
@@ -300,4 +306,62 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 |200 | 	OK | Normal |
 |403 |	Unauthorized | Invalid API Key |
 |429 |	Limit Exceeded | - |
+|500 |	Server error | - |
+
+# Teach API
+
+When using the SmallTalk API, you can give priority to talksets taught by Teach API.
+<span style="color:red;">If you want to use the features of the Teach API, you need the standard version of the SmallTalk API.</span>
+
+## Teach
+
+You can teach a talkset by requesting to the Teach API endpoint(`https://wsapi.simsimi.com/{VERSION}/teach`) with the appropriate method(POST), project key, and required parameters(`qtext`, `atext`, `lang`, `teach_key`). The talkset will be saved on corresponding project. The teach_key value can be used for classifying talksets.
+
+#### Example Request
+``` bash
+curl -X POST https://wsapi.simsimi.com/190410/teach \
+     -H "Content-Type: application/json" \
+     -H "x-api-key: PASTE_YOUR_PROJECT_KEY_HERE" \
+     -d '{
+            "qtext": "Hello",
+            "atext": "Hi, nice to meet you",
+            "lang": "ko",
+            "teach_key": "example"
+     }'                     
+```
+- `qtext` : Sentence entered
+- `atext` : Answer sentence
+- `lang` : Language code
+- `teach_key` : Value for classfication
+
+#### Example Response
+``` json
+{
+  "status":200,
+  "statusMessage":"Ok",
+  "request":{
+    "qtext": "Hello",
+    "atext": "Hi, nice to meet you",
+    "lang": "ko",
+    "teach_key": "example"
+  }
+}    
+```
+- `request` : request body
+- `status`, `statusMessage` : status information ([Status Code List](#Teach-Status-Code))
+
+## SmallTalk API
+
+You can utilize taught talksets by SmallTalk API with project's API key and teach_key. The talksets taught by Teach API can be answered first in SmallTalk API. See the ([Response Control](#Response-Control)) for instructions on how to use it.
+
+## Talksets Manager
+
+You can access the administration page through the project dashboard. The current administration page allows you to view and delete the talksets you taught.
+
+## Teach Status Code
+
+|`status` | `statusMessage` | Description | 
+| --- | --- | --- |
+|200 | 	OK | Normal |
+|403 |	Unauthorized | Invalid API Key |
 |500 |	Server error | - |
