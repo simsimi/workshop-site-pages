@@ -384,15 +384,15 @@ We offer a pre-paid subscription plan. With this subscription, you need to pay i
 </thead>
 <tbody class="chargeTbody">
 <tr>
-<td>100</td>
-<td>100</td>
+<td>200</td>
+<td>200</td>
 <td>$0.0150</td>
 <td>-</td>
-<td>$1.5</td>
+<td>$3.0</td>
 <td>$0.015</td>
 <td>-</td>
-<td>$1.5</td>
-<td>$18.0</td>
+<td>$3.0</td>
+<td>$36.0</td>
 </tr>
 <tr>
 <td>500</td>
