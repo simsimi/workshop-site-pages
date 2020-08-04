@@ -85,7 +85,11 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 
 - `suppress_ko_person_name` : 한국어 응답에서 사람의 이름 노출 제어. 챗봇의 응답에서 한국어권 사람의 이름이 나타나는 것을 막을 수 있습니다. `lang`이 `ko`인 경우에만 사용 가능합니다. (`R`: 일반적인 이름을 대부분 걸러냅니다.)
 
+#### 가르치기 API 연계 옵션
 
+- `teach_api_key` : 연계하여 사용하고 싶은 가르치기 API 프로젝트의 API 키를 입력하시면 가르친 대화세트를 우선적으로 대답합니다. utext와 관련하여 가르친 대화세트가 없다면 파라미터를 넣지 않은 경우와 똑같은 결과가 나옵니다. 가르친 대답세트가 나오는 경우 다른 응답제어, 추가정보 파라미터들과 연동되지 않습니다.
+
+- `teach_key` : 가르치기 API를 사용했을 때 입력한 teach_key에 해당하는 대화세트들만 대답하게 할 수 있습니다. teach_key와 상관없이 대답이 나오길 바라는 경우 입력하지 않아도 무방합니다. 가르친 대화세트 중 입력한 teach_key에 해당하는 것이 없다면 teach_api_key 파라미터를 넣지 않은 경우와 똑같은 결과가 나옵니다.
 
 ## 추가정보 
 일상대화 API는 응답에 대한 자세한 정보를 얻을 수 있는 방법을 제공합니다. 요청 본문의 `cf_info` 오브젝트에 제공받고자 하는 추가정보들을 예시와 같이 열거하여 요청합니다.
@@ -300,4 +304,63 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 |200 | 	OK | 정상 |
 |403 |	Unauthorized | 유효하지 않은 API Key |
 |429 |	Limit Exceeded | 사용 한도 초과 |
+|500 |	Server error | 서버 오류 |
+
+
+# 가르치기 API
+
+일상대화 API를 사용하면서 가르치기 API로 저장한 대화세트들을 우선적으로 대답하게 할 수 있습니다. 
+<span style="color:red;">가르치기 API의 기능을 사용하고 싶다면 일상대화 API Standard 버전이 필요합니다.</span>
+
+## 가르치기
+
+가르치기 API 엔드포인트(https://wsapi.simsimi.com/{VERSION}/teach) 를 향해 프로젝트키, 필수파라미터 4개(문장 `qtext`, 답변 `atext`, 언어코드 `lang`, 키 `teach_key`)를 명시하여 POST 요청하면 해당 프로젝트에 대화세트가 저장됩니다. teach_key 값은 가르치는 대화세트들을 그룹화하는데 사용할 수 있습니다.
+
+#### 요청예시
+``` bash
+curl -X POST https://wsapi.simsimi.com/190410/teach \
+     -H "Content-Type: application/json" \
+     -H "x-api-key: PASTE_YOUR_PROJECT_KEY_HERE" \
+     -d '{
+            "qtext": "심심아 안녕",
+            "atext": "안녕, 반가워",
+            "lang": "ko",
+            "teach_key": "example"
+     }'                     
+```
+- `qtext` : 사용자문장
+- `atext` : 답변문장
+- `lang` : 사용자의 언어코드
+- `teach_key` : 대화세트를 분류하는 키값
+
+#### 응답예시
+``` json
+{
+  "status":200,
+  "statusMessage":"Ok",
+  "request":{
+    "qtext": "심심아 안녕",
+    "atext": "안녕, 반가워",
+    "lang": "ko",
+    "teach_key": "example"
+  }
+}    
+```
+- `request` : 요청 본문
+- `status`, `statusMessage` : 상태정보 ([상태코드표](#가르치기-상태코드표) 참조)
+
+## 일상대화 API와의 연계
+
+프로젝트의 api키와 teacy_key를 사용하여 일상대화 API와 연계가 가능합니다. 가르치기 API로 저장한 대화세트는 일상대화 API에서 우선적으로 사용하실 수 있습니다. 사용 방법은 [응답제어](#응답제어)를 참조하십시오.
+
+## 관리 페이지
+
+프로젝트 대시보드를 통해 관리페이지로 접근할 수 있습니다. 현재 관리 페이지에서는 가르친 대화세트들의 열람과 삭제가 가능합니다.
+
+## 가르치기 상태코드표
+
+|`status` | `statusMessage` | 설명 | 
+| --- | --- | --- |
+|200 | 	OK | 정상 |
+|403 |	Unauthorized | 유효하지 않은 API Key |
 |500 |	Server error | 서버 오류 |
