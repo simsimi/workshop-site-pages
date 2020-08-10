@@ -312,8 +312,6 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 일상대화 API를 사용하면서 가르치기 API로 저장한 대화세트들을 우선적으로 대답하게 할 수 있습니다. 
 <span style="color:red;">가르치기 API의 기능을 사용하고 싶다면 일상대화 API Standard 버전이 필요합니다.</span>
 
-## 작동원리
-
 <img src="https://workshop.simsimi.com/images/teach_diagram_01.png" width="600px" alt="가르치기 API 개념도01">
 <img src="https://workshop.simsimi.com/images/teach_diagram_02.png" width="600px" alt="가르치기 API 개념도02">
 <img src="https://workshop.simsimi.com/images/teach_diagram_03.png" width="600px" alt="가르치기 API 개념도03">
