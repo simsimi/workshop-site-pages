@@ -313,6 +313,10 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 When using the SmallTalk API, you can give priority to talksets taught by Teach API.
 <span style="color:red;">If you want to use the features of the Teach API, you need the standard version of the SmallTalk API.</span>
 
+<img src="https://workshop.simsimi.com/images/teach_diagram_01.png" width="600px" alt="Teach API diagram01">
+<img src="https://workshop.simsimi.com/images/teach_diagram_02.png" width="600px" alt="Teach API diagram02">
+<img src="https://workshop.simsimi.com/images/teach_diagram_03.png" width="600px" alt="Teach API diagram03">
+
 ## Teach
 
 You can teach a talkset by requesting to the Teach API endpoint(`https://wsapi.simsimi.com/{VERSION}/teach`) with the appropriate method(POST), project key, and required parameters(`qtext`, `atext`, `lang`, `teach_key`). The talkset will be saved on corresponding project. The teach_key value can be used for classifying talksets.
