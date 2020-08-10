@@ -313,9 +313,9 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 When using the SmallTalk API, you can give priority to talksets taught by Teach API.
 <span style="color:red;">If you want to use the features of the Teach API, you need the standard version of the SmallTalk API.</span>
 
-<img src="https://workshop.simsimi.com/images/teach_diagram_01.png" width="600px" alt="Teach API diagram01">
-<img src="https://workshop.simsimi.com/images/teach_diagram_02.png" width="600px" alt="Teach API diagram02">
-<img src="https://workshop.simsimi.com/images/teach_diagram_03.png" width="600px" alt="Teach API diagram03">
+<img src="https://workshop.simsimi.com/images/teach_diagram_01e.png" width="600px" alt="Teach API diagram01">
+<img src="https://workshop.simsimi.com/images/teach_diagram_02e.png" width="600px" alt="Teach API diagram02">
+<img src="https://workshop.simsimi.com/images/teach_diagram_03e.png" width="600px" alt="Teach API diagram03">
 
 ## Teach
 
