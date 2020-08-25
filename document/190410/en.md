@@ -238,6 +238,10 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 ## Badword Probability
 The Badword Probability is an index developed by the SimSimi team to identify how unhealthy/malicious a sentence is, and there are some distinguishing techniques for index calculation including advanced deep learning with superior performance. For more information, please see the blog post, [Malcious Sentence Classification Techniques in the SimSimi Service (Korean)](http://blog.simsimi.com/2019/03/blog-post.html).
 
+&nbsp;
+
+&nbsp;
+
 # Bad Score API
 
 With the world's best conversational sentence classification technology, you can accurately and flexibly identify abusive or sensational sentences in in-game chat, real-time broadcast chat, bulletin board comments, and multilingual communication. Using this API, you can also get a variety of options in the traditional word and phrase filter method (WPF), and cover most languages with statistical-based probabilistic similarity-based classification techniques (STAPX). Our deep neural network model-based sentence classification technique (DPD) scored more than 99.3% of F1 score (in Korean), and you can utilize even the highest reliability classification technique (HB10A) verified by 10 panels in a short time by crowdsourcing. can.
@@ -286,18 +290,17 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 ## BadScore Supported Languages
 Most language codes are the same as ISO-639-1, but note that there are other cases(*).
 
-|Language Name		|	 Name	|	 Language Code|
-| --- | --- | --- |
-|Arabic	 |العربية	 |ar|
-|English	 |English	 |en|
-|French	 |Français	 |fr|
-|Indonesian	 |Bahasa Indonesia	 |id|
-|Korean	 |한국어	 |ko|
-|Malay	 |Melayu	 |ms|
-|Portuguese	 |Português	 |pt|
-|Spanish	 |Español	 |es|
-|Turkish	 |Türkçe	 |tr|
-|Vietnamese	 |Tiếng Việt	 |vn*|
+|Language Name		|	 Name	|	 Language Code| Performance(F1 Score) |
+| --- | --- | --- | --- |
+|Arabic	 |العربية	 |ar| 0.9432 |
+|English	 |English	 |en| 0.9847 |
+|French	 |Français	 |fr| 0.9376 |
+|Indonesian	 |Bahasa Indonesia	 |id| 0.9497 |
+|Korean	 |한국어	 |ko| 0.9930 |
+|Malay	 |Melayu	 |ms| 0.8984 |
+|Portuguese	 |Português	 |pt| 0.9836 |
+|Turkish	 |Türkçe	 |tr| 0.9502 |
+|Vietnamese	 |Tiếng Việt	 |vn*| 0.9132 |
 
 ## BadScore Status Code
 
@@ -307,6 +310,10 @@ Most language codes are the same as ISO-639-1, but note that there are other cas
 |403 |	Unauthorized | Invalid API Key |
 |429 |	Limit Exceeded | - |
 |500 |	Server error | - |
+
+&nbsp;
+
+&nbsp;
 
 # Teach API
 
