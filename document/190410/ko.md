@@ -23,6 +23,8 @@ code {color:#000080;}
 ## 기본요청
 일상대화 API 엔드포인트(`https://wsapi.simsimi.com/{VERSION}/talk`)를 향해 프로젝트키, 필수파라미터 2개(사용자문장 `utext`, 언어코드 `lang`)를 명시하여 POST 요청하면 응답을 받을 수 있습니다. 
 
+&nbsp;
+
 #### 요청예시
 ``` bash
 curl -X POST https://wsapi.simsimi.com/190410/talk \
@@ -35,6 +37,8 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 ```
 - `utext` : 사용자문장
 - `lang` : 사용자의 언어코드([일상대화 API가 지원하는 언어 및 언어코드](#일상대화-지원언어))
+
+&nbsp;
 
 #### 응답예시
 ``` json
@@ -53,8 +57,12 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 - `request` : 요청 본문
 - `status`, `statusMessage` : 상태정보 ([상태코드표](#일상대화-상태코드표) 참조)
 
+&nbsp;
+
 ## 응답제어
 각 챗봇의 성격에 맞는 응답을 제공하기 위해 응답을 조절하기 위한 옵션들을 제공합니다.
+
+&nbsp;
 
 #### 요청예시
 대한민국 또는 미국에서 생성된 대화세트 중에서 [나쁜말확률](#나쁜말확률) 70% 이하인 문장만을 답변으로 제공받고자 하는 경우 다음과 같이 `country`, `atext_bad_prob_max` 두 개의 옵션을 추가해서 요청하면 됩니다.
@@ -69,6 +77,9 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
             "atext_bad_prob_max": 0.7
      }'  
  ```
+
+&nbsp;
+
 #### 응답제어 옵션
 
 - `country` : 대화세트 생성국가 필터. 영어, 스페인어와 같이 여러 국가에서 사용되는 언어에서 특정 국가(들)에서 생성한 대화세트들로 응답후보를 한정할 수 있습니다. ([ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements) 국가코드를 10개까지 열거할 수 있음, 미지정시 모든 국가를 대상으로 함.)  
@@ -85,14 +96,21 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 
 - `suppress_ko_person_name` : 한국어 응답에서 사람의 이름 노출 제어. 챗봇의 응답에서 한국어권 사람의 이름이 나타나는 것을 막을 수 있습니다. `lang`이 `ko`인 경우에만 사용 가능합니다. (`R`: 일반적인 이름을 대부분 걸러냅니다.)
 
+&nbsp;
+
 #### 가르치기 API 연계 옵션
 
 - `teach_api_key` : 연계하여 사용하고 싶은 가르치기 API 프로젝트의 API 키를 입력하시면 가르친 대화세트를 우선적으로 대답합니다. utext와 관련하여 가르친 대화세트가 없다면 파라미터를 넣지 않은 경우와 똑같은 결과가 나옵니다. 가르친 대답세트가 나오는 경우 다른 응답제어, 추가정보 파라미터들과 연동되지 않습니다.
 
 - `teach_key` : 가르치기 API를 사용했을 때 입력한 teach_key에 해당하는 대화세트들만 대답하게 할 수 있습니다. teach_key와 상관없이 대답이 나오길 바라는 경우 입력하지 않아도 무방합니다. 가르친 대화세트 중 입력한 teach_key에 해당하는 것이 없다면 teach_api_key 파라미터를 넣지 않은 경우와 똑같은 결과가 나옵니다.
 
+&nbsp;
+
 ## 추가정보 
 일상대화 API는 응답에 대한 자세한 정보를 얻을 수 있는 방법을 제공합니다. 요청 본문의 `cf_info` 오브젝트에 제공받고자 하는 추가정보들을 예시와 같이 열거하여 요청합니다.
+
+&nbsp;
+
 #### 요청예시
 ``` bash
 curl -X POST https://wsapi.simsimi.com/190410/talk \
@@ -110,6 +128,9 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
             ],
      }'         
 ```
+
+&nbsp;
+
 #### 응답예시
 ``` json
 {
@@ -125,7 +146,11 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
     "regist_date" : "2017-07-08 08:24:37"
 }                           
   
+  
 ```
+
+&nbsp;
+
 #### 추가정보 요청 옵션
 - `qtext` : 답변문장(`atext`)과 쌍인 질문문장(`qtext`)
 - `country` : 대화세트 생성 국가의 국가코드([ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements))
@@ -133,6 +158,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 - `atext_bad_type` : 답변문장의 나쁜말 확률(`atext_bad_prob`) 추정 시 사용한 판별 방식. `STAPX`, `DPD`, `WPF`, `HB10A` 중 하나. ([판별방식에 대한 자세한 설명](http://blog.simsimi.com/2019/03/blog-post.html) )
 - `regist_date` : 대화세트 생성 시점
 
+&nbsp;
 
 ## 일상대화 지원언어
 대부분의 언어코드는 ISO-639-1과 동일하지만, 다른 사례(*)가 있으니 주의하세요.
@@ -221,6 +247,8 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 |키냐르완다어	|	 Ikinyarwanda	|	 rw|
 |중국어 (번체)	|	 繁體中文	|	 zh*|
 
+&nbsp;
+
 ## 일상대화 상태코드표
 
 |`status` | `statusMessage` | 설명 | 
@@ -232,12 +260,22 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 |429 |	Limit Exceeded | 사용 한도 초과 |
 |500 |	Server error | 서버 오류 |
 
+&nbsp;
+
 ## 나쁜말확률
 나쁜말확률은 불건전한(또는 악성) 문장을 구별하기 위해 심심이팀이 개발한 지표입니다. 뛰어난 성능을 보이는 고급 딥러닝 기술을 포함해 다양한 기법을 동원하여 산출합니다. 자세한 내용은 다음 블로그 포스트를 참고하시기 바랍니다. ([심심이 대화 품질 - 나쁜말 필터 관련 기술](http://blog.simsimi.com/2019/03/blog-post.html))
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 # 나쁜말점수 API
 
 세계 최고 성능의 대화체 문장 분류 기술로 게임 내 채팅, 실시간 방송 채팅, 게시판 덧글, 다국어 커뮤니케이션 등에서 욕설이나 선정적인 문장을 정확하고 유연하게 판별해 낼 수 있습니다. 전통적인 단어와 문구 필터 방식(WPF)에서도 다양한 옵션을 제공하며 통계 기반의 확률적 유사성 기반 분류 기법(STAPX)은 가장 많은 언어를 커버합니다. 심층신경망 모델 기반 문장 분류 기법(DPD)은 99.3% 이상의 F1 Score를 기록하였으며(한국어 기준) 크라우드소싱으로 10명의 패널이 검증하는 최상위 신뢰도의 분류 기법(HB10A)까지 활용할 수 있습니다.
+
+&nbsp;
 
 ## 판별 범위와 점수 기준  
 
@@ -246,9 +284,13 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 
 - 주로 '채팅에 사용되는 대화체 문장'에서, '문장 자체가 직접적으로 나쁜말(판별기준 참고)에 해당하는 표현'을 판별합니다. 이전 대화의 맥락, 상대방의 대화와 조응하여 형성되는 의미 및 중의적 표현은 판별 범위에서 제외됩니다.
 
+&nbsp;
+
 ## 요청
 
 나쁜말 판별기 API 엔드포인트(`https://wsapi.simsimi.com/{VERSION}/classify/bad`)를 향해 프로젝트키, 필수파라미터 3개(문장 `sentence`, 언어코드 `lang`, 타입 `type`)를 명시하여 POST 요청하면 응답을 받을 수 있습니다. 
+
+&nbsp;
 
 #### 요청예시
 ``` bash
@@ -264,6 +306,8 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 - `sentence` : 사용자문장
 - `lang` : 사용자의 언어코드([나쁜말 판별기 API가 지원하는 언어 및 언어코드](#나쁜말점수-지원언어))
 - `type` : 나쁜말 판별에 사용할 기법. 현재는 DPD만 지원합니다.
+
+&nbsp;
 
 #### 응답예시
 ``` json
@@ -281,21 +325,24 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 - `request` : 요청 본문
 - `status`, `statusMessage` : 상태정보 ([상태코드표](#나쁜말점수-상태코드표) 참조)
 
+&nbsp;
+
 ## 나쁜말점수 지원언어
 대부분의 언어코드는 ISO-639-1과 동일하지만, 다른 사례(*)가 있으니 주의하세요.
 
-|언어명	|	 언어명(네이티브)	|	 언어코드|
-| --- | --- | --- |
-|말레이어	|	 Melayu	|	 ms|
-|베트남어	|	 Tiếng Việt	|	 vn*|
-|스페인어	|	 Español	|	 es|
-|아랍어	|	 العربية	|	 ar|
-|영어	|	 English	|	 en|
-|인도네시아어	|	 Bahasa Indonesia	|	 id|
-|터키어	|	 Türkçe	|	 tr|
-|포르투갈어	|	 Português	|	 pt|
-|프랑스어	|	 Français	|	 fr|
-|한국어	|	 한국어	|	 ko|
+|언어명	|	 언어명(네이티브)	|	 언어코드| F1 Score |
+| --- | --- | --- | --- |
+|말레이어	|	 Melayu	|	 ms| 0.8984 |
+|베트남어	|	 Tiếng Việt	|	 vn*| 0.9132 |
+|아랍어	|	 العربية	|	 ar| 0.9432 |
+|영어	|	 English	|	 en| 0.9847 |
+|인도네시아어	|	 Bahasa Indonesia	|	 id| 0.9497 |
+|터키어	|	 Türkçe	|	 tr| 0.9502 |
+|포르투갈어	|	 Português	|	 pt| 0.9836 |
+|프랑스어	|	 Français	|	 fr| 0.9376 |
+|한국어	|	 한국어	|	 ko| 0.9930 |
+
+&nbsp;
 
 ## 나쁜말점수 상태코드표
 
@@ -306,6 +353,11 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 |429 |	Limit Exceeded | 사용 한도 초과 |
 |500 |	Server error | 서버 오류 |
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 # 가르치기 API
 
@@ -316,9 +368,13 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 <img src="https://workshop.simsimi.com/images/teach_diagram_02.png" width="600px" alt="가르치기 API 개념도02">
 <img src="https://workshop.simsimi.com/images/teach_diagram_03.png" width="600px" alt="가르치기 API 개념도03">
 
+&nbsp;
+
 ## 가르치기
 
 가르치기 API 엔드포인트(https://wsapi.simsimi.com/{VERSION}/teach) 를 향해 프로젝트키, 필수파라미터 4개(문장 `qtext`, 답변 `atext`, 언어코드 `lang`, 키 `teach_key`)를 명시하여 POST 요청하면 해당 프로젝트에 대화세트가 저장됩니다. teach_key 값은 가르치는 대화세트들을 그룹화하는데 사용할 수 있습니다.
+
+&nbsp;
 
 #### 요청예시
 ``` bash
@@ -337,6 +393,8 @@ curl -X POST https://wsapi.simsimi.com/190410/teach \
 - `lang` : 사용자의 언어코드
 - `teach_key` : 대화세트를 분류하는 키값
 
+&nbsp;
+
 #### 응답예시
 ``` json
 {
@@ -353,13 +411,19 @@ curl -X POST https://wsapi.simsimi.com/190410/teach \
 - `request` : 요청 본문
 - `status`, `statusMessage` : 상태정보 ([상태코드표](#가르치기-상태코드표) 참조)
 
+&nbsp;
+
 ## 일상대화 API와의 연계
 
 프로젝트의 api키와 teacy_key를 사용하여 일상대화 API와 연계가 가능합니다. 가르치기 API로 저장한 대화세트는 일상대화 API에서 우선적으로 사용하실 수 있습니다. 사용 방법은 [응답제어](#응답제어)를 참조하십시오.
 
+&nbsp;
+
 ## 관리 페이지
 
 프로젝트 대시보드를 통해 관리페이지로 접근할 수 있습니다. 현재 관리 페이지에서는 가르친 대화세트들의 열람과 삭제가 가능합니다.
+
+&nbsp;
 
 ## 가르치기 상태코드표
 
