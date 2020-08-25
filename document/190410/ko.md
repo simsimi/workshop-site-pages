@@ -23,8 +23,6 @@ code {color:#000080;}
 ## 기본요청
 일상대화 API 엔드포인트(`https://wsapi.simsimi.com/{VERSION}/talk`)를 향해 프로젝트키, 필수파라미터 2개(사용자문장 `utext`, 언어코드 `lang`)를 명시하여 POST 요청하면 응답을 받을 수 있습니다. 
 
-&nbsp;
-
 #### 요청예시
 ``` bash
 curl -X POST https://wsapi.simsimi.com/190410/talk \
@@ -37,8 +35,6 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 ```
 - `utext` : 사용자문장
 - `lang` : 사용자의 언어코드([일상대화 API가 지원하는 언어 및 언어코드](#일상대화-지원언어))
-
-&nbsp;
 
 #### 응답예시
 ``` json
@@ -62,8 +58,6 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 ## 응답제어
 각 챗봇의 성격에 맞는 응답을 제공하기 위해 응답을 조절하기 위한 옵션들을 제공합니다.
 
-&nbsp;
-
 #### 요청예시
 대한민국 또는 미국에서 생성된 대화세트 중에서 [나쁜말확률](#나쁜말확률) 70% 이하인 문장만을 답변으로 제공받고자 하는 경우 다음과 같이 `country`, `atext_bad_prob_max` 두 개의 옵션을 추가해서 요청하면 됩니다.
 ``` bash
@@ -77,8 +71,6 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
             "atext_bad_prob_max": 0.7
      }'  
  ```
-
-&nbsp;
 
 #### 응답제어 옵션
 
@@ -96,8 +88,6 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 
 - `suppress_ko_person_name` : 한국어 응답에서 사람의 이름 노출 제어. 챗봇의 응답에서 한국어권 사람의 이름이 나타나는 것을 막을 수 있습니다. `lang`이 `ko`인 경우에만 사용 가능합니다. (`R`: 일반적인 이름을 대부분 걸러냅니다.)
 
-&nbsp;
-
 #### 가르치기 API 연계 옵션
 
 - `teach_api_key` : 연계하여 사용하고 싶은 가르치기 API 프로젝트의 API 키를 입력하시면 가르친 대화세트를 우선적으로 대답합니다. utext와 관련하여 가르친 대화세트가 없다면 파라미터를 넣지 않은 경우와 똑같은 결과가 나옵니다. 가르친 대답세트가 나오는 경우 다른 응답제어, 추가정보 파라미터들과 연동되지 않습니다.
@@ -108,8 +98,6 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 
 ## 추가정보 
 일상대화 API는 응답에 대한 자세한 정보를 얻을 수 있는 방법을 제공합니다. 요청 본문의 `cf_info` 오브젝트에 제공받고자 하는 추가정보들을 예시와 같이 열거하여 요청합니다.
-
-&nbsp;
 
 #### 요청예시
 ``` bash
@@ -129,8 +117,6 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
      }'         
 ```
 
-&nbsp;
-
 #### 응답예시
 ``` json
 {
@@ -148,8 +134,6 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
   
   
 ```
-
-&nbsp;
 
 #### 추가정보 요청 옵션
 - `qtext` : 답변문장(`atext`)과 쌍인 질문문장(`qtext`)
@@ -290,8 +274,6 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 
 나쁜말 판별기 API 엔드포인트(`https://wsapi.simsimi.com/{VERSION}/classify/bad`)를 향해 프로젝트키, 필수파라미터 3개(문장 `sentence`, 언어코드 `lang`, 타입 `type`)를 명시하여 POST 요청하면 응답을 받을 수 있습니다. 
 
-&nbsp;
-
 #### 요청예시
 ``` bash
 curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
@@ -306,8 +288,6 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 - `sentence` : 사용자문장
 - `lang` : 사용자의 언어코드([나쁜말 판별기 API가 지원하는 언어 및 언어코드](#나쁜말점수-지원언어))
 - `type` : 나쁜말 판별에 사용할 기법. 현재는 DPD만 지원합니다.
-
-&nbsp;
 
 #### 응답예시
 ``` json
@@ -374,8 +354,6 @@ curl -X POST https://wsapi.simsimi.com/190410/classify/bad \
 
 가르치기 API 엔드포인트(https://wsapi.simsimi.com/{VERSION}/teach) 를 향해 프로젝트키, 필수파라미터 4개(문장 `qtext`, 답변 `atext`, 언어코드 `lang`, 키 `teach_key`)를 명시하여 POST 요청하면 해당 프로젝트에 대화세트가 저장됩니다. teach_key 값은 가르치는 대화세트들을 그룹화하는데 사용할 수 있습니다.
 
-&nbsp;
-
 #### 요청예시
 ``` bash
 curl -X POST https://wsapi.simsimi.com/190410/teach \
@@ -392,8 +370,6 @@ curl -X POST https://wsapi.simsimi.com/190410/teach \
 - `atext` : 답변문장
 - `lang` : 사용자의 언어코드
 - `teach_key` : 대화세트를 분류하는 키값
-
-&nbsp;
 
 #### 응답예시
 ``` json
