@@ -104,7 +104,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$38</td>
 <td>$456.0</td>
 </tr>
-<tr>
+<!--<tr>
 <td>10K</td>
 <td>10,000</td>
 <td>$0.0154</td>
@@ -188,6 +188,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$28,000</td>
 <td>$336,000.0</td>
 </tr>
+-->
 </tbody>
 </table>
 
@@ -251,7 +252,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>$44</td>
 <td>$522.0</td>
 </tr>
-<tr>
+<!--<tr>
 <td>10K</td>
 <td>10,000</td>
 <td>$0.0178</td>
@@ -334,7 +335,7 @@ For detailed pricing information, see the pricing and usage matrix below for eac
 <td>91%</td>
 <td>$32,000</td>
 <td>$384,000.0</td>
-</tr>
+</tr>-->
 </tbody>
 </table>
 
@@ -416,7 +417,7 @@ We offer a pre-paid subscription plan. With this subscription, you need to pay i
 <td>$9.5</td>
 <td>$114.0</td>
 </tr>
-<tr>
+<!--<tr>
 <td>5K</td>
 <td>5,000</td>
 <td>$0.0085</td>
@@ -481,7 +482,7 @@ We offer a pre-paid subscription plan. With this subscription, you need to pay i
 <td>87%</td>
 <td>$2,000.0</td>
 <td>$24,000.0</td>
-</tr>
+</tr>-->
 </tbody>
 </table>
 
