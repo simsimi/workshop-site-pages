@@ -127,5 +127,4 @@ Kritiya Rujichok, Nakhon Pathom Rajabhat University, ThailandThe European Confer
 </a>
 张东强, 2016 [TP311.56]
 <br/>
-SimSimi Workshop Services(SWS) offers discounts and free usage for non-commercial research, as well as developers who develop services that help society or promote the excellence of conversation engines. Click on the following link for more information.
-<a href="/pricing#%EB%AC%B4%EB%A3%8C%20%EB%B0%8F%20%ED%95%A0%EC%9D%B8%20%ED%98%9C%ED%83%9D\">link</a>
+SimSimi Workshop Services(SWS) offers discounts and free usage for non-commercial research, as well as developers who develop services that help society or promote the excellence of conversation engines. Click on the following link for more information.<a href="/pricing#%EB%AC%B4%EB%A3%8C%20%EB%B0%8F%20%ED%95%A0%EC%9D%B8%20%ED%98%9C%ED%83%9D\">link</a>
