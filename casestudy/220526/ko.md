@@ -8,8 +8,10 @@ code {color:#000080;}
 </style>
 
 # 고객
+
 ## Baidu
-### 중국 1위 검색엔진 바이두,<br/>가상비서 앱에 심심이 API를 이용.
+
+<b>중국 1위 검색엔진 바이두,<br/>가상비서 앱에 심심이 API를 이용.</b>
 <img src="https://workshop.simsimi.com/images/ui_screenshot_baidu_opacity100.png"  alt="screenshot" />
 
 중국 검색엔진 바이두가 자체적으로 개발한 가상비서 서비스에 심심이API를 이용.
@@ -19,7 +21,8 @@ code {color:#000080;}
 Check out this link : <a  href="http://shouji.baidu.com/voiceassistant/?from=1000535i"  target="_blank">http://shouji.baidu.com/voiceassistant/?from=1000535i</a>
 
 ## Renren
-### 중국 1위 SNS 런런<br/>심심이 API를 이용하여 채팅봇 서비스 운영
+
+<b>중국 1위 SNS 런런<br/>심심이 API를 이용하여 채팅봇 서비스 운영</b>
 <img src="https://workshop.simsimi.com/images/ui_screenshot_renren_opacity100.png"  alt="screenshot" />
 
 중국 1위 SNS 런런, 심심이 API를 이용하여 채팅봇 서비스 운영.
@@ -31,7 +34,8 @@ Check out this link : <a  href="http://shouji.baidu.com/voiceassistant/?from=100
 Check out this link : <a  href="http://page.renren.com/601621937?from=opensearch"  target="blank">http://page.renren.com/601621937?from=opensearch</a>
 
 ## 36 you games
-### "남친 만들기" 게임,<br/> 대화하기 추가후 일본 앱스토어 1위 
+
+<b>"남친 만들기" 게임,<br/> 대화하기 추가후 일본 앱스토어 1위</b>
 <img src="https://workshop.simsimi.com/images/ui_screenshot_36yougames_opacity100.png" alt="screenshot" />
 
 홍콩 게임업체 36게임의 &#34;남친 만들기&#34; 가 남자친구와 대화하기 기능을 추가 한후 일본 앱스토어에서 1위를 기록하였습니다!
@@ -40,8 +44,10 @@ Check out this link : <a  href="http://page.renren.com/601621937?from=opensearch
 Check out this link : <a  href="https://itunes.apple.com/us/app/boyfriend-plus/id569416671?mt=8"  target="_blank">https://itunes.apple.com/us/app/boyfriend-plus/id569416671?mt=8</a>
 
 # 연구
+
 ## 논문
-### 심심이를 주제로 다룬 논문들
+
+<b>심심이를 주제로 다룬 논문들</b>
 <a href="https://arxiv.org/pdf/1812.08989.pdf">
 The Design and Implementation of XiaoIce, an Empathetic Social Chatbot
 </a>
