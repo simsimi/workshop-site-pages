@@ -415,6 +415,6 @@ curl -X POST https://wsapi.simsimi.com/190410/teach \
 
 API 사용자들이 포스팅한 사용법, 구현 예시, 코드 등입니다.
 
-- [윈도우앱](https://hyunminh.github.io/learning-test/)
-- [스프링](https://okayoon.tistory.com/entry/%EC%9D%B8%ED%94%84%EB%9F%B0-React-%EA%B0%95%EC%9D%98-%EB%93%A3%EA%B3%A0-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-Front-back-%EC%9E%91%EC%97%85-1-%EC%8B%AC%EC%8B%AC%EC%9D%B4-API%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%B1%84%ED%8C%85%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90)
-- [React](https://okayoon.tistory.com/entry/%EC%9D%B8%ED%94%84%EB%9F%B0-React-%EA%B0%95%EC%9D%98-%EB%93%A3%EA%B3%A0-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-Front-back-%EC%9E%91%EC%97%85-1-%EC%8B%AC%EC%8B%AC%EC%9D%B4-API%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%B1%84%ED%8C%85%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90)
+- [윈도우앱](https://devkyunghoon.tistory.com/8) : [프로젝트] #1 - 심심이(SimSimi) API를 이용한 채팅 프로그램 만들기 - Develp
+- [스프링](https://hyunminh.github.io/learning-test/) : 학습테스트로 프레임워크, 라이브러리, API를 학습해보자 - Hyun Velog 
+- [React](https://okayoon.tistory.com/entry/%EC%9D%B8%ED%94%84%EB%9F%B0-React-%EA%B0%95%EC%9D%98-%EB%93%A3%EA%B3%A0-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-Front-back-%EC%9E%91%EC%97%85-1-%EC%8B%AC%EC%8B%AC%EC%9D%B4-API%EB%A5%BC-%ED%86%B5%ED%95%B4-%EC%B1%84%ED%8C%85%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90) : 인프런 React 강의 듣고 사이트 만들기 _ Front & back 작업 1. 심심이 채팅을 만들어보자! (simsimi API, 심심이 API) - Zzolab Blog :)
