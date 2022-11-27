@@ -506,6 +506,3 @@ Visa, Master 카드를 프로젝트에 등록하여 결제를 진행하실 수 �
 
 혜택을 받기를 희망하시는 분은 [링크에서 폼 작성 후 제출해주시기 바랍니다.](https://forms.gle/KPjZqbrS9w9nwvvh7)
 
-# 초/중/고 학생 프로그램
-초/중/고 학생은 학교 확인을 받아 챗봇공방을 무료로 사용할 수 있습니다. [신청하기](https://docs.google.com/forms/d/1hd2o2RbP2UoRYSazI0AZhnprFjTXQSPx6vX57Aaq88c/edit)
-
