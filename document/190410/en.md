@@ -7,7 +7,7 @@ code {color:#000080;}
 </style>
 
 # SmallTalk API
-SimSimi Workshop Services (SWS) provides a service based on 'SimSimi', a small talk chatbot that has enjoyed about 350 million users around the world. SimSimi's steadfast success lies in its more than 100 million lively, dedicated-to-use scenarios written by twenty-two million panelists from diverse backgrounds around the world. The SmallTalk API leverages these scenarios and the conversation engine AICR to help your chatbot provide laughter and healing to users.
+SimSimi Workshop Services (SWS) provides a service based on 'SimSimi', a small talk chatbot that has enjoyed over 400 million users around the world. SimSimi's steadfast success lies in its more than 150 million lively, dedicated-to-use scenarios written by twenty-two million panelists from diverse backgrounds around the world. The SmallTalk API leverages these scenarios and the conversation engine AICR to help your chatbot provide laughter and healing to users.
 
 
 ## Concept
