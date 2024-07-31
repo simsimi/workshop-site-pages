@@ -82,7 +82,7 @@ curl -X POST https://wsapi.simsimi.com/190410/talk \
 　
 - `regist_date_max`, `regist_date_min` : Specify the range of the talkset registration date. You can use it to implement chatbots that are sensitive to the latest trends or chatbots that have stayed in the past.(Use in the foramt `yyyy-MM-dd HH:mm:ss`, default if not specified: `regist_date_max` is now, `regist_date_min` is date of the first talkset registration)　　
 
-- `ko_polite_converter` : Convert Korean response into polite word. This is only usable when `lang` is `ko`. (`true|false`, default if not specified: `false`)
+- `Deprecated` ~~`ko_polite_converter` : Convert Korean response into polite word. This is only usable when `lang` is `ko`. (`true|false`, default if not specified: `false`)~~
 
 - `suppress_ko_person_name` : Control the exposure of a Korean person's name in response. This is only usable when `lang` is `ko`. (`R`: Filters out most common names)
 　  
